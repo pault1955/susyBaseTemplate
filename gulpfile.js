@@ -1,5 +1,7 @@
 var gulp = require('gulp'),
     gutil = require('gulp-util'),
+    stylish = require('gulp-jsbeautifier'),
+    jshint = require('gulp-jshint'),
     browserify = require('gulp-browserify'),
     w3cjs = require('gulp-w3cjs'),
     compass = require('gulp-compass'),
@@ -7,8 +9,7 @@ var gulp = require('gulp'),
     gulpif = require('gulp-if'),
     uglify = require('gulp-uglify'),
     minifyHTML = require('gulp-minify-html'),
-    concat = require('gulp-concat'),
-    path = require('path');
+    concat = require('gulp-concat');
 
 var env,
     jsSources,
@@ -39,8 +40,15 @@ htmlSources = [outputDir + '*.html'];
 gulp.task('js', function() {
   'use strict';
 
+  gulp.src('components/scripts/script.js')
+    .pipe(jshint('./.jshintrc'))
+    .pipe(jshint.reporter('jshint-stylish'))
+    .pipe(gulpif(env === 'production', uglify()))
+    .pipe(gulp.dest(outputDir + 'js'));
+
+
   gulp.src(jsSources)
-    .pipe(concat('script.js'))
+    .pipe(concat('plugins.js'))
     .pipe(browserify())
     .on('error', gutil.log)
     .pipe(gulpif(env === 'production', uglify()))
@@ -59,7 +67,7 @@ gulp.task('compass', function() {
       require: ['susy', 'breakpoint']
     })
     .on('error', gutil.log))
-//    .pipe(gulp.dest( outputDir + 'css'))
+    // .pipe(gulp.dest( outputDir + 'css'))
     .pipe(connect.reload());
 });
 
@@ -94,3 +102,4 @@ gulp.task('move', function() {
 });
 
 gulp.task('default', ['watch', 'html', 'js', 'compass', 'move', 'connect']);
+
