@@ -1,0 +1,99 @@
+// ======================================
+// slice affinity footer 3 - Contact - Social
+// ======================================
+
+.slice_affinity_footer_3 {
+
+  padding-top: 0;
+  padding-bottom: 0;
+  background-color: $footer_3-background-color;
+
+  .footer {
+
+    .footer-middle {
+      display: none;
+    }
+
+    .footer_column {
+
+      margin-bottom: 0;
+      text-align: center;
+
+      .contact_details {
+        color: #707070;
+        font-size: 13px;
+        line-height: 30px;
+        margin: 23px auto 0;
+        text-align: left;
+
+        .site_details {
+          display: inline-block;
+        }
+
+      }
+
+      .social {
+        float: right;
+        margin: 33px auto;
+        list-style: none;
+
+        li {
+          float: left;
+          position: relative;
+          margin-left: 10px;
+
+          a {
+            display: block;
+            width: 40px;
+            height: 40px;
+            border: 1px solid #dbdbdb;
+            text-indent: -9999px;
+            margin-bottom: 5px;
+            
+            &:hover {
+              opacity: 0.7;
+            }
+          }
+
+          .icon-twitter {
+            background: url(../images/footer-3-icon-twitter.png) center no-repeat;
+          }
+          .icon-facebook {
+            background: url(../images/footer-3-icon-facebook.png) center no-repeat;
+          }
+          .icon-youtube {
+            background: url(../images/footer-3-icon-youtube.png) center no-repeat;
+          }
+          .icon-rss {
+            background: url(../images/footer-3-icon-rss.png) center no-repeat;
+          }
+        }
+      }
+
+    }
+
+    @media (min-width: $breakpoint-sm) {
+
+
+
+    }
+
+    @media (min-width: $breakpoint-md) {
+      .contact_details {
+        margin: 23px auto;
+      }
+
+      .footer-middle {
+        display: block;
+      }
+    }
+
+  }
+}
+
+
+
+
+
+
+

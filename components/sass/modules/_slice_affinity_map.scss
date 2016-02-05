@@ -1,0 +1,24 @@
+// ======================================
+// slice affinity map
+// ======================================
+
+.slice_affinity_map {
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  .map-container {
+
+    & > div {
+
+      pointer-events: none;
+
+    }
+
+  }
+
+
+  @media (min-width: $breakpoint-md) {
+
+  }
+
+}

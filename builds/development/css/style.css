@@ -1,0 +1,3285 @@
+@import url(http://fonts.googleapis.com/css?family=Exo+2:400,200,600,800);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700);
+/* line 5, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 45, ../../../components/sass/_normalize.scss */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section,
+summary {
+  display: block;
+}
+
+/* line 61, ../../../components/sass/_normalize.scss */
+audio,
+canvas,
+video {
+  display: inline-block;
+}
+
+/* line 74, ../../../components/sass/_normalize.scss */
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/* line 84, ../../../components/sass/_normalize.scss */
+[hidden], template {
+  display: none;
+}
+
+/* line 97, ../../../components/sass/_normalize.scss */
+html {
+  background: #fff;
+  color: #000;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+/* line 109, ../../../components/sass/_normalize.scss */
+html,
+button,
+input,
+select,
+textarea {
+  font-family: sans-serif;
+}
+
+/* line 119, ../../../components/sass/_normalize.scss */
+body {
+  margin: 0;
+}
+
+/* line 132, ../../../components/sass/_normalize.scss */
+a {
+  background: transparent;
+}
+/* line 139, ../../../components/sass/_normalize.scss */
+a:focus {
+  outline: thin dotted;
+}
+/* line 145, ../../../components/sass/_normalize.scss */
+a:hover, a:active {
+  outline: 0;
+}
+
+/* line 159, ../../../components/sass/_normalize.scss */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* line 164, ../../../components/sass/_normalize.scss */
+h2 {
+  font-size: 1.5em;
+  margin: 0.83em 0;
+}
+
+/* line 169, ../../../components/sass/_normalize.scss */
+h3 {
+  font-size: 1.17em;
+  margin: 1em 0;
+}
+
+/* line 174, ../../../components/sass/_normalize.scss */
+h4 {
+  font-size: 1em;
+  margin: 1.33em 0;
+}
+
+/* line 179, ../../../components/sass/_normalize.scss */
+h5 {
+  font-size: 0.83em;
+  margin: 1.67em 0;
+}
+
+/* line 184, ../../../components/sass/_normalize.scss */
+h6 {
+  font-size: 0.75em;
+  margin: 2.33em 0;
+}
+
+/* line 192, ../../../components/sass/_normalize.scss */
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+/* line 198, ../../../components/sass/_normalize.scss */
+b,
+strong {
+  font-weight: bold;
+}
+
+/* line 211, ../../../components/sass/_normalize.scss */
+dfn {
+  font-style: italic;
+}
+
+/* line 217, ../../../components/sass/_normalize.scss */
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+/* line 233, ../../../components/sass/_normalize.scss */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, serif;
+  font-size: 1em;
+}
+
+/* line 246, ../../../components/sass/_normalize.scss */
+pre {
+  white-space: pre;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+/* line 254, ../../../components/sass/_normalize.scss */
+q {
+  quotes: "\201C" "\201D" "\2018" "\2019";
+}
+
+/* line 270, ../../../components/sass/_normalize.scss */
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+/* line 279, ../../../components/sass/_normalize.scss */
+small {
+  font-size: 80%;
+}
+
+/* line 286, ../../../components/sass/_normalize.scss */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 294, ../../../components/sass/_normalize.scss */
+sup {
+  top: -0.5em;
+}
+
+/* line 298, ../../../components/sass/_normalize.scss */
+sub {
+  bottom: -0.25em;
+}
+
+/* line 350, ../../../components/sass/_normalize.scss */
+img {
+  border: 0;
+}
+
+/* line 359, ../../../components/sass/_normalize.scss */
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* line 369, ../../../components/sass/_normalize.scss */
+figure {
+  margin: 0;
+}
+
+/* line 386, ../../../components/sass/_normalize.scss */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+/* line 397, ../../../components/sass/_normalize.scss */
+legend {
+  border: 0;
+  padding: 0;
+  white-space: normal;
+}
+
+/* line 411, ../../../components/sass/_normalize.scss */
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+  margin: 0;
+  vertical-align: baseline;
+}
+
+/* line 426, ../../../components/sass/_normalize.scss */
+button, input {
+  line-height: normal;
+}
+
+/* line 435, ../../../components/sass/_normalize.scss */
+button,
+select {
+  text-transform: none;
+}
+
+/* line 448, ../../../components/sass/_normalize.scss */
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+
+/* line 461, ../../../components/sass/_normalize.scss */
+button[disabled],
+input[disabled] {
+  cursor: default;
+}
+
+/* line 470, ../../../components/sass/_normalize.scss */
+button::-moz-focus-inner, input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/* line 479, ../../../components/sass/_normalize.scss */
+textarea {
+  overflow: auto;
+  vertical-align: top;
+}
+
+/* line 490, ../../../components/sass/_normalize.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 498, ../../../components/sass/_normalize.scss */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+/* line 506, ../../../components/sass/_normalize.scss */
+input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+/* line 516, ../../../components/sass/_normalize.scss */
+input[type="checkbox"], input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+/* line 21, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/susy-2.2.12/sass/susy/language/susy/_box-sizing.scss */
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 1, ../../../components/sass/_base.scss */
+body {
+  font: 200 1em/1.5em "Exo 2", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background: #FFFFFF;
+  color: #000000;
+}
+
+/* line 7, ../../../components/sass/_base.scss */
+h1, h2, h3, h4, h5, h6 {
+  font: 200 1.5em/1.5em "Exo 2", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #0f83a0;
+  font-weight: 600;
+}
+
+/* line 13, ../../../components/sass/_base.scss */
+strong {
+  font-weight: 600;
+}
+
+/* line 17, ../../../components/sass/_base.scss */
+p {
+  font-weight: 200;
+  padding-bottom: 10px;
+}
+
+/* line 1, ../../../components/sass/_layout.scss */
+body {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 7, ../../../components/sass/modules/_affinity_base.scss */
+body {
+  color: #4d4d4d;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+/* line 14, ../../../components/sass/modules/_affinity_base.scss */
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1350px;
+}
+
+@media (min-width: 1200px) {
+  /* line 21, ../../../components/sass/modules/_affinity_base.scss */
+  .container {
+    width: 1170px;
+  }
+}
+/* line 26, ../../../components/sass/modules/_affinity_base.scss */
+img {
+  width: 100%;
+}
+
+/* line 32, ../../../components/sass/modules/_affinity_base.scss */
+.center-block {
+  float: none;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 38, ../../../components/sass/modules/_affinity_base.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Open Sans Bold', sans-serif;
+  margin: 0.1em 0;
+}
+
+/* line 44, ../../../components/sass/modules/_affinity_base.scss */
+h1 {
+  font-size: 48px;
+  line-height: 50px;
+  margin-top: 0;
+}
+
+/* line 50, ../../../components/sass/modules/_affinity_base.scss */
+h2 {
+  font-size: 42px;
+  line-height: 46px;
+}
+
+/* line 55, ../../../components/sass/modules/_affinity_base.scss */
+h3 {
+  font-size: 36px;
+  line-height: 42px;
+}
+
+/* line 60, ../../../components/sass/modules/_affinity_base.scss */
+h4 {
+  font-size: 24px;
+  line-height: 28px;
+}
+
+/* line 65, ../../../components/sass/modules/_affinity_base.scss */
+h5 {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+}
+
+/* line 71, ../../../components/sass/modules/_affinity_base.scss */
+h6 {
+  font-size: 18px;
+  line-height: 28px;
+}
+
+/* line 81, ../../../components/sass/modules/_affinity_base.scss */
+blockquote {
+  font-size: 14px;
+}
+
+/* line 85, ../../../components/sass/modules/_affinity_base.scss */
+a {
+  color: #2aabab;
+}
+/* line 88, ../../../components/sass/modules/_affinity_base.scss */
+a:hover {
+  color: #5ac5c5;
+  text-decoration: none;
+}
+
+/* remove ios shadow */
+/* line 96, ../../../components/sass/modules/_affinity_base.scss */
+input, textarea {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+/* line 103, ../../../components/sass/modules/_affinity_base.scss */
+.sitebutton {
+  display: inline-block;
+  margin-top: 10px;
+  margin-right: 5px;
+  padding: 9px 15px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  -webkit-transition: background-color 500ms ease;
+  transition: background-color 500ms ease;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 2px;
+  text-decoration: none;
+  text-transform: uppercase;
+  border: 1px solid #cdd0df;
+  background-color: transparent;
+  color: #4d4d4d;
+}
+/* line 122, ../../../components/sass/modules/_affinity_base.scss */
+.sitebutton:hover {
+  color: #fff;
+  border: 1px solid #5ac5c5;
+  background-color: #5ac5c5;
+}
+
+/* line 128, ../../../components/sass/modules/_affinity_base.scss */
+.preview_overlay_content img {
+  width: 20px;
+}
+
+/* line 131, ../../../components/sass/modules/_affinity_base.scss */
+img.preview_show {
+  width: 20px;
+}
+
+/* popup windows */
+/* line 137, ../../../components/sass/modules/_affinity_base.scss */
+.popupwindow_title {
+  color: #4d4d4d;
+}
+
+/* view all forums  icon */
+/* line 142, ../../../components/sass/modules/_affinity_base.scss */
+.forums_boxout_contents a img {
+  width: 20px;
+  margin-right: 8px;
+}
+
+/* directory search icon */
+/* line 148, ../../../components/sass/modules/_affinity_base.scss */
+tr.gridheader a img {
+  width: 25px;
+}
+
+/* media list icons */
+/* line 154, ../../../components/sass/modules/_affinity_base.scss */
+.media_box_cell img {
+  width: 18px;
+}
+
+/* line 157, ../../../components/sass/modules/_affinity_base.scss */
+.MediaListRSS img {
+  width: 40px;
+}
+
+/* signup sheet */
+/* line 161, ../../../components/sass/modules/_affinity_base.scss */
+table.signup tr td, td.signup0 {
+  line-height: 0px;
+  font-size: 0px;
+  border-collapse: separate;
+}
+
+/* line 168, ../../../components/sass/modules/_affinity_base.scss */
+table.signup tr td img {
+  height: 8px !important;
+}
+
+/* form styling */
+/* line 172, ../../../components/sass/modules/_affinity_base.scss */
+input {
+  -webkit-appearance: none;
+}
+
+/* line 175, ../../../components/sass/modules/_affinity_base.scss */
+input[type="checkbox"] + label, input[type="radio"] + label {
+  margin-left: 10px;
+}
+
+@media (min-width: 768px) {
+  /* line 181, ../../../components/sass/modules/_affinity_base.scss */
+  body {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  /* line 187, ../../../components/sass/modules/_affinity_base.scss */
+  h1 {
+    font-size: 48px;
+    line-height: 50px;
+    margin-top: 0;
+  }
+
+  /* line 193, ../../../components/sass/modules/_affinity_base.scss */
+  h2 {
+    font-size: 42px;
+    line-height: 46px;
+  }
+
+  /* line 198, ../../../components/sass/modules/_affinity_base.scss */
+  h3 {
+    font-size: 36px;
+    line-height: 42px;
+  }
+
+  /* line 203, ../../../components/sass/modules/_affinity_base.scss */
+  h4 {
+    font-size: 24px;
+    line-height: 28px;
+  }
+
+  /* line 208, ../../../components/sass/modules/_affinity_base.scss */
+  h5 {
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 700;
+  }
+
+  /* line 214, ../../../components/sass/modules/_affinity_base.scss */
+  h6 {
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  /* line 220, ../../../components/sass/modules/_affinity_base.scss */
+  p {
+    margin-bottom: 24px;
+  }
+
+  /* line 224, ../../../components/sass/modules/_affinity_base.scss */
+  blockquote {
+    font-size: 16px;
+  }
+}
+/* line 231, ../../../components/sass/modules/_affinity_base.scss */
+.content_page_main .ArticleBody .author {
+  display: none;
+}
+
+/* line 5, ../../../components/sass/modules/_slice_affinity_login_box.scss */
+#DivLoginBox {
+  margin-left: -8px;
+  margin-top: -50px;
+  background-color: #FFF;
+  position: fixed !important;
+  border-style: outset !important;
+  border-width: 2px !important;
+  border-color: rgba(69, 95, 107, 0.2) !important;
+  -webkit-box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+}
+@media (min-width: 479px) {
+  /* line 5, ../../../components/sass/modules/_slice_affinity_login_box.scss */
+  #DivLoginBox {
+    height: 290px !important;
+  }
+}
+@media only screen and (max-width: 991px) {
+  /* line 5, ../../../components/sass/modules/_slice_affinity_login_box.scss */
+  #DivLoginBox {
+    margin-left: 0;
+    margin-top: 0;
+  }
+}
+@media (max-width: 479px) {
+  /* line 5, ../../../components/sass/modules/_slice_affinity_login_box.scss */
+  #DivLoginBox {
+    top: 0 !important;
+    bottom: 0 !important;
+    width: 100% !important;
+    left: 0px !important;
+    z-index: 10000 !important;
+    height: 100% !important;
+  }
+  /* line 41, ../../../components/sass/modules/_slice_affinity_login_box.scss */
+  #DivLoginBox div {
+    width: 300px;
+    margin: auto;
+  }
+}
+/* line 47, ../../../components/sass/modules/_slice_affinity_login_box.scss */
+#DivLoginBox .shadedbox .gridheader {
+  font-size: 20px;
+  font-weight: 700;
+  height: 50px;
+}
+/* line 53, ../../../components/sass/modules/_slice_affinity_login_box.scss */
+#DivLoginBox .shadedbox td {
+  padding: 2px 0;
+}
+/* line 57, ../../../components/sass/modules/_slice_affinity_login_box.scss */
+#DivLoginBox .shadedbox td label {
+  font-size: 13px;
+  font-weight: 400;
+}
+/* line 62, ../../../components/sass/modules/_slice_affinity_login_box.scss */
+#DivLoginBox .shadedbox td a {
+  text-decoration: none;
+  color: #31a7de;
+}
+/* line 67, ../../../components/sass/modules/_slice_affinity_login_box.scss */
+#DivLoginBox .shadedbox td a:hover {
+  color: #000;
+}
+/* line 71, ../../../components/sass/modules/_slice_affinity_login_box.scss */
+#DivLoginBox .shadedbox td img {
+  display: none;
+}
+/* line 75, ../../../components/sass/modules/_slice_affinity_login_box.scss */
+#DivLoginBox .shadedbox td .button {
+  font-size: 16px;
+  width: 100px !important;
+  margin: 0 !important;
+  margin-bottom: 10px !important;
+  display: inline-block;
+  height: 45px;
+  margin-top: 10px;
+  margin-right: 5px;
+  padding: 8px 17px 11px;
+  border-radius: 2px;
+  -webkit-transition: background-color 500ms ease, border-color 500ms ease, color 500ms ease;
+  -o-transition: background-color 500ms ease, border-color 500ms ease, color 500ms ease;
+  transition: background-color 500ms ease, border-color 500ms ease, color 500ms ease;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  border: 2px solid #d1d2d4;
+  background-color: #fff;
+  color: #4d4d4d;
+}
+/* line 97, ../../../components/sass/modules/_slice_affinity_login_box.scss */
+#DivLoginBox .shadedbox td .button:hover {
+  background-color: #5ac5c5;
+  border: 2px solid #5ac5c5;
+  color: #fff;
+}
+/* line 103, ../../../components/sass/modules/_slice_affinity_login_box.scss */
+#DivLoginBox .shadedbox td .button:focus {
+  outline: none;
+}
+/* line 111, ../../../components/sass/modules/_slice_affinity_login_box.scss */
+#DivLoginBox .button:hover {
+  border-color: #383f42;
+  background-color: #383f42;
+}
+
+/* line 5, ../../../components/sass/modules/_slice_affinity_header_statusbar_search.scss */
+.slice_affinity_header_statusbar_search {
+  /* ==========================================================================
+    Nav
+    ========================================================================== */
+  /* ==========================================================================
+     Slicknav
+     ========================================================================== */
+  /*
+    Mobile Menu Core Style
+*/
+  /* Button Text */
+}
+/* line 7, ../../../components/sass/modules/_slice_affinity_header_statusbar_search.scss */
+.slice_affinity_header_statusbar_search .siteLogoName {
+  text-align: left;
+  float: left;
+  height: 123px;
+  margin-top: 15px;
+}
+/* line 12, ../../../components/sass/modules/_slice_affinity_header_statusbar_search.scss */
+.slice_affinity_header_statusbar_search .siteLogoName a {
+  text-decoration: none;
+}
+/* line 15, ../../../components/sass/modules/_slice_affinity_header_statusbar_search.scss */
+.slice_affinity_header_statusbar_search .siteLogoName .siteLogo {
+  display: inline-block;
+}
+/* line 17, ../../../components/sass/modules/_slice_affinity_header_statusbar_search.scss */
+.slice_affinity_header_statusbar_search .siteLogoName .siteLogo img {
+  max-width: 85px;
+}
+/* line 22, ../../../components/sass/modules/_slice_affinity_header_statusbar_search.scss */
+.slice_affinity_header_statusbar_search .siteLogoName .siteName {
+  display: inline-block;
+}
+/* line 24, ../../../components/sass/modules/_slice_affinity_header_statusbar_search.scss */
+.slice_affinity_header_statusbar_search .siteLogoName .siteName a {
+  font-size: 26px;
+  color: #4d4d4d;
+  margin-bottom: 75px;
+  vertical-align: middle;
+}
+/* line 33, ../../../components/sass/modules/_slice_affinity_header_statusbar_search.scss */
+.slice_affinity_header_statusbar_search .statusbarSearch {
+  display: none;
+}
+/* line 41, ../../../components/sass/modules/_slice_affinity_header_statusbar_search.scss */
+.slice_affinity_header_statusbar_search .navbar {
+  display: none;
+}
+/* line 45, ../../../components/sass/modules/_slice_affinity_header_statusbar_search.scss */
+.slice_affinity_header_statusbar_search nav {
+  background-color: #f5f5f5;
+  height: 44px;
+}
+/* line 50, ../../../components/sass/modules/_slice_affinity_header_statusbar_search.scss */
+.slice_affinity_header_statusbar_search nav a {
+  color: #4d4d4d;
+  font-size: 14px;
+  font-weight: normal;
+  display: block;
+  -webkit-transition: background-color 400ms ease;
+  -moz-transition: background-color 400ms ease;
+  -ms-transition: background-color 400ms ease;
+  -o-transition: background-color 400ms ease;
+  transition: background-color 400ms ease;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+/* line 64, ../../../components/sass/modules/_slice_affinity_header_statusbar_search.scss */
+.slice_affinity_header_statusbar_search nav ul {
+  list-style-type: none;
+}
+/* line 68, ../../../components/sass/modules/_slice_affinity_header_statusbar_search.scss */
+.slice_affinity_header_statusbar_search .root_menu > li {
+  float: left;
+  position: relative;
+  margin-top: 4px;
+}
+/* line 74, ../../../components/sass/modules/_slice_affinity_header_statusbar_search.scss */
+.slice_affinity_header_statusbar_search .root_menu > li > a {
+  padding: 9px 20px;
+}
+/* line 78, ../../../components/sass/modules/_slice_affinity_header_statusbar_search.scss */
+.slice_affinity_header_statusbar_search .root_menu > li:first-child {
+  margin-top: 0;
+  margin-right: 15px;
+}
+/* line 83, ../../../components/sass/modules/_slice_affinity_header_statusbar_search.scss */
+.slice_affinity_header_statusbar_search .root_menu > li:first-child > a {
+  background-image: url(../images/affinity-icon-home.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  text-indent: -9999px;
+  padding: 13px 40px;
+  background-color: #5ac5c5;
+  -webkit-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  transition: all 500ms ease;
+}
+/* line 95, ../../../components/sass/modules/_slice_affinity_header_statusbar_search.scss */
+.slice_affinity_header_statusbar_search .root_menu > li:hover > a {
+  background-color: transparent;
+  color: #2aabab;
+}
+/* line 100, ../../../components/sass/modules/_slice_affinity_header_statusbar_search.scss */
+.slice_affinity_header_statusbar_search .root_menu > li:first-child:hover > a {
+  opacity: 0.5;
+  background-color: #5ac5c5;
+}
+/* line 104, ../../../components/sass/modules/_slice_affinity_header_statusbar_search.scss */
+.slice_affinity_header_statusbar_search .root_menu > li ul {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: #f5f5f5;
+  min-width: 210px;
+  padding: 7px 0;
+  z-index: 999;
+}
+/* line 114, ../../../components/sass/modules/_slice_affinity_header_statusbar_search.scss */
+.slice_affinity_header_statusbar_search .root_menu > li ul a {
+  color: #4d4d4d;
+  font-size: 14px;
+  font-weight: normal;
+  padding: 3px 23px;
+}
+/* line 121, ../../../components/sass/modules/_slice_affinity_header_statusbar_search.scss */
+.slice_affinity_header_statusbar_search .root_menu > li li:hover > a {
+  color: #2aabab;
+}
+/* line 125, ../../../components/sass/modules/_slice_affinity_header_statusbar_search.scss */
+.slice_affinity_header_statusbar_search .root_menu > li ul ul {
+  top: -7px;
+  left: 100%;
+}
+/* line 130, ../../../components/sass/modules/_slice_affinity_header_statusbar_search.scss */
+.slice_affinity_header_statusbar_search .root_menu ul {
+  display: none;
+}
+/* line 134, ../../../components/sass/modules/_slice_affinity_header_statusbar_search.scss */
+.slice_affinity_header_statusbar_search .root_menu ul li {
+  position: relative;
+}
+/* line 138, ../../../components/sass/modules/_slice_affinity_header_statusbar_search.scss */
+.slice_affinity_header_statusbar_search .root_menu li:hover > ul {
+  display: block;
+}
+/* line 142, ../../../components/sass/modules/_slice_affinity_header_statusbar_search.scss */
+.slice_affinity_header_statusbar_search #mobile_menu {
+  display: none;
+}
+/* line 146, ../../../components/sass/modules/_slice_affinity_header_statusbar_search.scss */
+.slice_affinity_header_statusbar_search .root_menu li li.has_sub_menu:before {
+  content: ">";
+  position: absolute;
+  right: 8px;
+  top: 0;
+  line-height: 30px;
+  height: 30px;
+}
+/* line 165, ../../../components/sass/modules/_slice_affinity_header_statusbar_search.scss */
+.slice_affinity_header_statusbar_search .slicknav_btn {
+  position: relative;
+  display: block;
+  vertical-align: middle;
+  float: right;
+  padding: 0 0.625em 0 0.625em;
+  cursor: pointer;
+  width: 100%;
+  text-decoration: none;
+  line-height: 42px;
+  height: 42px;
+  background-color: #31a7de;
+}
+/* line 178, ../../../components/sass/modules/_slice_affinity_header_statusbar_search.scss */
+.slice_affinity_header_statusbar_search .slicknav_btn .slicknav_icon-bar + .slicknav_icon-bar {
+  margin-top: 4px;
+}
+/* line 181, ../../../components/sass/modules/_slice_affinity_header_statusbar_search.scss */
+.slice_affinity_header_statusbar_search .slicknav_btn span {
+  display: block;
+}
+/* line 187, ../../../components/sass/modules/_slice_affinity_header_statusbar_search.scss */
+.slice_affinity_header_statusbar_search .slicknav_menu {
+  font-size: 16px;
+  *zoom: 1;
+}
+/* line 192, ../../../components/sass/modules/_slice_affinity_header_statusbar_search.scss */
+.slice_affinity_header_statusbar_search .slicknav_menu .slicknav_menutxt {
+  display: block;
+  line-height: 42px;
+  float: right;
+}
+/* line 198, ../../../components/sass/modules/_slice_affinity_header_statusbar_search.scss */
+.slice_affinity_header_statusbar_search .slicknav_menu .slicknav_icon {
+  float: right;
+  margin: 12px 0 0 10px;
+  width: 23px;
+}
+/* line 204, ../../../components/sass/modules/_slice_affinity_header_statusbar_search.scss */
+.slice_affinity_header_statusbar_search .slicknav_menu .slicknav_no-text {
+  margin: 0;
+}
+/* line 208, ../../../components/sass/modules/_slice_affinity_header_statusbar_search.scss */
+.slice_affinity_header_statusbar_search .slicknav_menu .slicknav_icon-bar {
+  display: block;
+  width: 20px;
+  height: 3px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+}
+/* line 217, ../../../components/sass/modules/_slice_affinity_header_statusbar_search.scss */
+.slice_affinity_header_statusbar_search .slicknav_menu .slicknav_menutxt {
+  color: #fff;
+  font-size: 16px;
+}
+/* line 222, ../../../components/sass/modules/_slice_affinity_header_statusbar_search.scss */
+.slice_affinity_header_statusbar_search .slicknav_menu .slicknav_icon-bar {
+  background-color: #fff;
+}
+/* line 227, ../../../components/sass/modules/_slice_affinity_header_statusbar_search.scss */
+.slice_affinity_header_statusbar_search .slicknav_nav {
+  clear: both;
+  color: #414141;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  border-bottom: 1px solid #d1d1d1;
+  background: #ddd;
+  list-style: none;
+  overflow: hidden;
+}
+/* line 238, ../../../components/sass/modules/_slice_affinity_header_statusbar_search.scss */
+.slice_affinity_header_statusbar_search .slicknav_nav ul, .slice_affinity_header_statusbar_search .slicknav_nav li {
+  display: block;
+}
+/* line 242, ../../../components/sass/modules/_slice_affinity_header_statusbar_search.scss */
+.slice_affinity_header_statusbar_search .slicknav_nav .slicknav_arrow {
+  font-size: 0.8em;
+  margin: 0 0 0 0.4em;
+}
+/* line 247, ../../../components/sass/modules/_slice_affinity_header_statusbar_search.scss */
+.slice_affinity_header_statusbar_search .slicknav_nav .slicknav_item {
+  display: block;
+  cursor: pointer;
+}
+/* line 250, ../../../components/sass/modules/_slice_affinity_header_statusbar_search.scss */
+.slice_affinity_header_statusbar_search .slicknav_nav .slicknav_item a {
+  display: inline;
+}
+/* line 255, ../../../components/sass/modules/_slice_affinity_header_statusbar_search.scss */
+.slice_affinity_header_statusbar_search .slicknav_nav a {
+  display: block;
+}
+/* line 259, ../../../components/sass/modules/_slice_affinity_header_statusbar_search.scss */
+.slice_affinity_header_statusbar_search .slicknav_nav ul {
+  padding: 0;
+  margin: 0;
+  background: #e9e9e9;
+  list-style: none;
+  overflow: hidden;
+}
+/* line 267, ../../../components/sass/modules/_slice_affinity_header_statusbar_search.scss */
+.slice_affinity_header_statusbar_search .slicknav_nav li {
+  border-top: 1px solid #d1d1d1;
+}
+/* line 271, ../../../components/sass/modules/_slice_affinity_header_statusbar_search.scss */
+.slice_affinity_header_statusbar_search .slicknav_nav .slicknav_item {
+  padding: 0px 25px;
+  height: 42px;
+  line-height: 42px;
+}
+/* line 277, ../../../components/sass/modules/_slice_affinity_header_statusbar_search.scss */
+.slice_affinity_header_statusbar_search .slicknav_nav a {
+  text-decoration: none;
+  color: #414141;
+  text-transform: uppercase;
+}
+/* line 283, ../../../components/sass/modules/_slice_affinity_header_statusbar_search.scss */
+.slice_affinity_header_statusbar_search .slicknav_nav li > a {
+  padding: 0px 25px;
+  height: 42px;
+  line-height: 42px;
+}
+/* line 289, ../../../components/sass/modules/_slice_affinity_header_statusbar_search.scss */
+.slice_affinity_header_statusbar_search .slicknav_nav ul li > a {
+  font-size: 13px;
+  padding: 0px 25px;
+  height: 32px;
+  line-height: 32px;
+}
+/* line 296, ../../../components/sass/modules/_slice_affinity_header_statusbar_search.scss */
+.slice_affinity_header_statusbar_search .slicknav_nav ul li li > a {
+  font-size: 13px;
+  padding: 0px 40px;
+}
+/* line 301, ../../../components/sass/modules/_slice_affinity_header_statusbar_search.scss */
+.slice_affinity_header_statusbar_search .slicknav_nav ul li.has_sub_menu > a {
+  padding: 0px 25px 0px 25px;
+  background-color: #ddd;
+}
+/* line 306, ../../../components/sass/modules/_slice_affinity_header_statusbar_search.scss */
+.slice_affinity_header_statusbar_search .slicknav_nav .slicknav_item a {
+  padding: 0;
+  margin: 0;
+}
+/* line 311, ../../../components/sass/modules/_slice_affinity_header_statusbar_search.scss */
+.slice_affinity_header_statusbar_search .slicknav_nav .slicknav_txtnode {
+  margin-left: 15px;
+}
+/* line 315, ../../../components/sass/modules/_slice_affinity_header_statusbar_search.scss */
+.slice_affinity_header_statusbar_search .slicknav_nav .slicknav_collapsed > a .slicknav_arrow {
+  font-size: 0;
+  background: url(../images/affinity-tab-arrows.png) no-repeat;
+  float: right;
+  width: 15px;
+  height: 12px;
+  margin-top: 15px;
+  background-size: 15px 24px;
+}
+/* line 325, ../../../components/sass/modules/_slice_affinity_header_statusbar_search.scss */
+.slice_affinity_header_statusbar_search .slicknav_nav .slicknav_open > a .slicknav_arrow {
+  font-size: 0;
+  background: url(../images/affinity-tab-arrows.png) no-repeat;
+  float: right;
+  width: 15px;
+  height: 12px;
+  margin-top: 15px;
+  background-size: 15px 24px;
+  background-position: 0 -12px;
+}
+/* line 336, ../../../components/sass/modules/_slice_affinity_header_statusbar_search.scss */
+.slice_affinity_header_statusbar_search .slicknav_nav li:hover > a {
+  color: #31a7de;
+}
+/* line 340, ../../../components/sass/modules/_slice_affinity_header_statusbar_search.scss */
+.slice_affinity_header_statusbar_search .slicknav_nav > li:hover > a, .slice_affinity_header_statusbar_search .slicknav_nav > li.slicknav_open > a {
+  color: #fff;
+  background: #31a7de;
+}
+/* line 345, ../../../components/sass/modules/_slice_affinity_header_statusbar_search.scss */
+.slice_affinity_header_statusbar_search .slicknav_nav > li:hover > a > a, .slice_affinity_header_statusbar_search .slicknav_nav > li.slicknav_open > a > a {
+  color: #fff;
+}
+/* line 351, ../../../components/sass/modules/_slice_affinity_header_statusbar_search.scss */
+.slice_affinity_header_statusbar_search .slicknav_menu:before,
+.slice_affinity_header_statusbar_search .slicknav_menu:after {
+  content: " ";
+  display: table;
+}
+/* line 357, ../../../components/sass/modules/_slice_affinity_header_statusbar_search.scss */
+.slice_affinity_header_statusbar_search .slicknav_menu:after {
+  clear: both;
+}
+/* line 361, ../../../components/sass/modules/_slice_affinity_header_statusbar_search.scss */
+.slice_affinity_header_statusbar_search .slicknav_btn.slicknav_open .slicknav_icon:before {
+  content: 'X';
+  color: #fff;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 12px;
+  text-align: center;
+  text-indent: 0px;
+  width: 12px;
+  height: 12px;
+  display: block;
+  margin: 0 3px;
+  margin-top: 4px;
+}
+/* line 377, ../../../components/sass/modules/_slice_affinity_header_statusbar_search.scss */
+.slice_affinity_header_statusbar_search .slicknav_btn.slicknav_open .slicknav_icon .slicknav_icon-bar {
+  display: none;
+}
+/* line 383, ../../../components/sass/modules/_slice_affinity_header_statusbar_search.scss */
+.slice_affinity_header_statusbar_search .slicknav_menu .log_out_nav, .slice_affinity_header_statusbar_search .slicknav_nav .sign_in_nav {
+  padding: 0 25px;
+  display: block;
+  width: 100%;
+  height: 42px;
+}
+/* line 390, ../../../components/sass/modules/_slice_affinity_header_statusbar_search.scss */
+.slice_affinity_header_statusbar_search .slicknav_menu .log_out_nav a:hover, .slice_affinity_header_statusbar_search .slicknav_nav .sign_in_nav a:hover {
+  color: #31a7de;
+}
+/* line 394, ../../../components/sass/modules/_slice_affinity_header_statusbar_search.scss */
+.slice_affinity_header_statusbar_search .slicknav_menu .log_out_nav a, .slice_affinity_header_statusbar_search .slicknav_menu .sign_in_nav a {
+  display: inline;
+  float: left;
+  padding: 0 25px 0 0;
+  margin: 0 5px 0 0;
+  height: 42px;
+  line-height: 42px;
+  font-size: 12px;
+}
+@media only screen and (min-width: 768px) {
+  /* line 405, ../../../components/sass/modules/_slice_affinity_header_statusbar_search.scss */
+  .slice_affinity_header_statusbar_search .navbar {
+    display: block;
+    margin-bottom: 40px;
+  }
+  /* line 409, ../../../components/sass/modules/_slice_affinity_header_statusbar_search.scss */
+  .slice_affinity_header_statusbar_search .siteLogo img {
+    max-width: 102px;
+  }
+  /* line 412, ../../../components/sass/modules/_slice_affinity_header_statusbar_search.scss */
+  .slice_affinity_header_statusbar_search .siteLogoName .siteName a {
+    font-size: 36.4px;
+  }
+  /* line 416, ../../../components/sass/modules/_slice_affinity_header_statusbar_search.scss */
+  .slice_affinity_header_statusbar_search .statusbarSearch {
+    display: block;
+    float: right;
+    margin-top: 44px;
+  }
+  /* line 421, ../../../components/sass/modules/_slice_affinity_header_statusbar_search.scss */
+  .slice_affinity_header_statusbar_search .statusbarSearch div {
+    position: relative;
+    float: right;
+  }
+  /* line 425, ../../../components/sass/modules/_slice_affinity_header_statusbar_search.scss */
+  .slice_affinity_header_statusbar_search .statusbarSearch .text {
+    width: 220px;
+    height: 34px;
+    color: #4d4d4d;
+    font-size: 14px;
+    border: 1px solid #dbdbdb;
+    padding: 10px 33px 10px 15px;
+    text-transform: uppercase;
+  }
+  /* line 435, ../../../components/sass/modules/_slice_affinity_header_statusbar_search.scss */
+  .slice_affinity_header_statusbar_search .statusbarSearch .searchBox .button {
+    width: 32px;
+    height: 34px;
+    background: url(../images/btn-search.jpg) center no-repeat;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: none;
+    color: #fff;
+    text-indent: -999px;
+  }
+  /* line 449, ../../../components/sass/modules/_slice_affinity_header_statusbar_search.scss */
+  .slice_affinity_header_statusbar_search .statusbarSearch .statusbar .greeting_div {
+    display: none;
+  }
+  /* line 452, ../../../components/sass/modules/_slice_affinity_header_statusbar_search.scss */
+  .slice_affinity_header_statusbar_search .statusbarSearch .statusbar > a {
+    border: 1px solid #d1d2d4;
+    color: #4d4d4d;
+    font-size: 13px;
+    text-decoration: none;
+    padding: 4px 16px;
+    float: right;
+    margin-right: 12px;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-bottom: 15px;
+    background-color: transparent;
+    -webkit-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+    text-align: center;
+    min-width: 100px;
+  }
+  /* line 470, ../../../components/sass/modules/_slice_affinity_header_statusbar_search.scss */
+  .slice_affinity_header_statusbar_search .statusbarSearch .statusbar > a:hover {
+    border-color: #5ac5c5;
+    background-color: #5ac5c5;
+    color: #fff;
+  }
+  /* line 480, ../../../components/sass/modules/_slice_affinity_header_statusbar_search.scss */
+  .slice_affinity_header_statusbar_search #mobile_nav {
+    display: none;
+  }
+}
+@media only screen and (min-width: 768px) {
+  /* line 487, ../../../components/sass/modules/_slice_affinity_header_statusbar_search.scss */
+  .slice_affinity_header_statusbar_search .siteLogoName {
+    margin-top: 35px;
+  }
+  /* line 491, ../../../components/sass/modules/_slice_affinity_header_statusbar_search.scss */
+  .slice_affinity_header_statusbar_search nav a {
+    font-size: 14px;
+  }
+  /* line 495, ../../../components/sass/modules/_slice_affinity_header_statusbar_search.scss */
+  .slice_affinity_header_statusbar_search .root_menu {
+    padding-left: 0;
+    margin: 0 auto;
+    width: 820px;
+  }
+  /* line 500, ../../../components/sass/modules/_slice_affinity_header_statusbar_search.scss */
+  .slice_affinity_header_statusbar_search .root_menu > li > a {
+    padding: 9px 10px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  /* line 508, ../../../components/sass/modules/_slice_affinity_header_statusbar_search.scss */
+  .slice_affinity_header_statusbar_search nav a {
+    font-size: 16.8px;
+  }
+  /* line 512, ../../../components/sass/modules/_slice_affinity_header_statusbar_search.scss */
+  .slice_affinity_header_statusbar_search .root_menu > li ul a {
+    font-size: 14px;
+  }
+}
+
+/* line 7, ../../../components/sass/modules/_slice_affinity_slideshow.scss */
+.slice_affinity_slideshow .bannerSlides {
+  margin-top: 0;
+}
+/* line 10, ../../../components/sass/modules/_slice_affinity_slideshow.scss */
+.slice_affinity_slideshow .bannerSlides .bx-wrapper {
+  max-width: 1280px !important;
+}
+/* line 14, ../../../components/sass/modules/_slice_affinity_slideshow.scss */
+.slice_affinity_slideshow .bannerSlides .gallery_ul {
+  display: none;
+}
+/* line 17, ../../../components/sass/modules/_slice_affinity_slideshow.scss */
+.slice_affinity_slideshow .bannerSlides .gallery_li img {
+  height: 100%;
+  width: 100%;
+}
+/* line 22, ../../../components/sass/modules/_slice_affinity_slideshow.scss */
+.slice_affinity_slideshow .bx-wrapper {
+  border: none !important;
+  box-shadow: none !important;
+  -moz-box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+  left: 0 !important;
+  -webkit-transform: translatez(0);
+  -moz-transform: translatez(0);
+  -ms-transform: translatez(0);
+  -o-transform: translatez(0);
+  transform: translatez(0);
+}
+/* line 35, ../../../components/sass/modules/_slice_affinity_slideshow.scss */
+.slice_affinity_slideshow .bannerSlides .gallery_ul {
+  padding: 0;
+}
+/* line 39, ../../../components/sass/modules/_slice_affinity_slideshow.scss */
+.slice_affinity_slideshow .bx-controls.bx-has-pager {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  bottom: 0;
+}
+/* line 48, ../../../components/sass/modules/_slice_affinity_slideshow.scss */
+.slice_affinity_slideshow .bx-wrapper .bx-pager.bx-default-pager a {
+  background: #d1d2d4;
+  -webkit-transition: background-color 500ms ease;
+  -o-transition: background-color 500ms ease;
+  transition: background-color 500ms ease;
+  width: 16px;
+  height: 16px;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  border-radius: 8px;
+}
+/* line 60, ../../../components/sass/modules/_slice_affinity_slideshow.scss */
+.slice_affinity_slideshow .bx-wrapper .bx-pager.bx-default-pager a:hover,
+.slice_affinity_slideshow .bx-wrapper .bx-pager.bx-default-pager a.active {
+  background: #5ac5c5;
+}
+/* line 64, ../../../components/sass/modules/_slice_affinity_slideshow.scss */
+.slice_affinity_slideshow .caption {
+  position: absolute;
+  top: 18%;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* line 73, ../../../components/sass/modules/_slice_affinity_slideshow.scss */
+.slice_affinity_slideshow .bx-wrapper .bx-prev {
+  left: 0;
+  background: url(../images/affinity-arrow-left.png) no-repeat 20px center;
+  opacity: 0.5;
+  height: 76px;
+}
+/* line 80, ../../../components/sass/modules/_slice_affinity_slideshow.scss */
+.slice_affinity_slideshow .bx-wrapper .bx-next {
+  right: 0;
+  background: url(../images/affinity-arrow-right.png) no-repeat 20px center;
+  opacity: 0.5;
+  height: 76px;
+}
+/* line 87, ../../../components/sass/modules/_slice_affinity_slideshow.scss */
+.slice_affinity_slideshow .bx-wrapper .bx-prev:hover,
+.slice_affinity_slideshow .bx-wrapper .bx-prev:focus {
+  opacity: 1;
+  background-position: 20px 25px;
+}
+/* line 93, ../../../components/sass/modules/_slice_affinity_slideshow.scss */
+.slice_affinity_slideshow .bx-wrapper .bx-next:hover,
+.slice_affinity_slideshow .bx-wrapper .bx-next:focus {
+  opacity: 1;
+  background-position: 20px 25px;
+}
+/* line 98, ../../../components/sass/modules/_slice_affinity_slideshow.scss */
+.slice_affinity_slideshow .bannerSlides.bx-controls-direction {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 1000px;
+  left: 50%;
+  margin-left: -500px;
+}
+/* line 106, ../../../components/sass/modules/_slice_affinity_slideshow.scss */
+.slice_affinity_slideshow .bx-wrapper .bx-controls-direction a {
+  position: absolute;
+  top: -190px;
+  margin-top: -25px;
+  outline: 0;
+  width: 48px;
+  height: 76px;
+  text-indent: -9999px;
+  z-index: 99999999;
+  background-color: #6bc4c4;
+  display: none;
+}
+/* line 118, ../../../components/sass/modules/_slice_affinity_slideshow.scss */
+.slice_affinity_slideshow .bx-wrapper .bx-controls-direction a:hover {
+  opacity: 0.5;
+}
+/* line 121, ../../../components/sass/modules/_slice_affinity_slideshow.scss */
+.slice_affinity_slideshow .caption .divider {
+  border-top: 4px solid #d9cdc7;
+  opacity: 0.6;
+  margin: 15px auto;
+  max-width: 300px;
+  text-align: center;
+  display: none;
+}
+/* line 130, ../../../components/sass/modules/_slice_affinity_slideshow.scss */
+.slice_affinity_slideshow .caption .slideTitle {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  font-size: 50px;
+  line-height: 50px;
+  font-weight: 900;
+  text-shadow: rgba(0, 0, 0, 0.49) 0px 0px 6px;
+  text-align: center;
+}
+/* line 141, ../../../components/sass/modules/_slice_affinity_slideshow.scss */
+.slice_affinity_slideshow .caption .slideText {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 36px;
+  color: #fff;
+  line-height: 36px;
+  font-weight: 900;
+  text-align: center;
+  display: none;
+}
+/* line 152, ../../../components/sass/modules/_slice_affinity_slideshow.scss */
+.slice_affinity_slideshow .caption .slideButton {
+  color: #fff;
+  border: 2px solid #fff;
+  background-color: transparent;
+  display: none;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  padding: 10px 16px;
+  border-radius: 3px;
+  text-align: center;
+  width: 150px;
+  margin: 0 auto;
+  -webkit-transition: background-color 500ms ease, border-color 500ms ease, color 500ms ease;
+  -o-transition: background-color 500ms ease, border-color 500ms ease, color 500ms ease;
+  transition: background-color 500ms ease, border-color 500ms ease, color 500ms ease;
+  text-decoration: none;
+}
+/* line 169, ../../../components/sass/modules/_slice_affinity_slideshow.scss */
+.slice_affinity_slideshow .caption .slideButton:hover {
+  background-color: #fff;
+  color: #4d4d4d;
+}
+@media (min-width: 480px) {
+  /* line 175, ../../../components/sass/modules/_slice_affinity_slideshow.scss */
+  .slice_affinity_slideshow .caption {
+    top: 8%;
+  }
+  /* line 179, ../../../components/sass/modules/_slice_affinity_slideshow.scss */
+  .slice_affinity_slideshow .caption .divider {
+    display: block;
+  }
+  /* line 183, ../../../components/sass/modules/_slice_affinity_slideshow.scss */
+  .slice_affinity_slideshow .caption .slideTitle {
+    font-size: 55px;
+    line-height: 55px;
+  }
+  /* line 187, ../../../components/sass/modules/_slice_affinity_slideshow.scss */
+  .slice_affinity_slideshow .caption .slideText {
+    display: block;
+  }
+}
+@media (min-width: 768px) {
+  /* line 194, ../../../components/sass/modules/_slice_affinity_slideshow.scss */
+  .slice_affinity_slideshow .caption {
+    top: 8%;
+  }
+  /* line 198, ../../../components/sass/modules/_slice_affinity_slideshow.scss */
+  .slice_affinity_slideshow .caption .slideTitle {
+    font-size: 60px;
+    line-height: 60px;
+  }
+  /* line 202, ../../../components/sass/modules/_slice_affinity_slideshow.scss */
+  .slice_affinity_slideshow .caption .slideButton {
+    display: block;
+  }
+  /* line 206, ../../../components/sass/modules/_slice_affinity_slideshow.scss */
+  .slice_affinity_slideshow .bx-wrapper .bx-controls-direction a {
+    top: -150px;
+    display: block;
+  }
+}
+@media (min-width: 992px) {
+  /* line 214, ../../../components/sass/modules/_slice_affinity_slideshow.scss */
+  .slice_affinity_slideshow .caption {
+    top: 18%;
+  }
+  /* line 218, ../../../components/sass/modules/_slice_affinity_slideshow.scss */
+  .slice_affinity_slideshow .caption .slideTitle {
+    font-size: 85px;
+    line-height: 80px;
+  }
+  /* line 222, ../../../components/sass/modules/_slice_affinity_slideshow.scss */
+  .slice_affinity_slideshow .bx-wrapper .bx-controls-direction a {
+    top: -215px;
+  }
+}
+
+/* line 7, ../../../components/sass/modules/_slice_affinity_slideshow_full_width.scss */
+.slice_affinity_slideshow_full_width .bannerSlides {
+  margin-top: 0;
+}
+/* line 11, ../../../components/sass/modules/_slice_affinity_slideshow_full_width.scss */
+.slice_affinity_slideshow_full_width .bannerSlides .gallery_ul {
+  display: none;
+}
+/* line 14, ../../../components/sass/modules/_slice_affinity_slideshow_full_width.scss */
+.slice_affinity_slideshow_full_width .bannerSlides .gallery_li img {
+  height: 100%;
+  width: 100%;
+}
+/* line 19, ../../../components/sass/modules/_slice_affinity_slideshow_full_width.scss */
+.slice_affinity_slideshow_full_width .bx-wrapper {
+  border: none !important;
+  box-shadow: none !important;
+  -moz-box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+  left: 0 !important;
+  -webkit-transform: translatez(0);
+  -moz-transform: translatez(0);
+  -ms-transform: translatez(0);
+  -o-transform: translatez(0);
+  transform: translatez(0);
+}
+/* line 32, ../../../components/sass/modules/_slice_affinity_slideshow_full_width.scss */
+.slice_affinity_slideshow_full_width .bannerSlides .gallery_ul {
+  padding: 0;
+}
+/* line 36, ../../../components/sass/modules/_slice_affinity_slideshow_full_width.scss */
+.slice_affinity_slideshow_full_width .bx-controls.bx-has-pager {
+  position: absolute;
+  width: 200px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  bottom: 50px;
+}
+/* line 45, ../../../components/sass/modules/_slice_affinity_slideshow_full_width.scss */
+.slice_affinity_slideshow_full_width .bx-wrapper .bx-pager.bx-default-pager a {
+  background: #d1d2d4;
+  -webkit-transition: background-color 500ms ease;
+  -o-transition: background-color 500ms ease;
+  transition: background-color 500ms ease;
+  width: 16px;
+  height: 16px;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  border-radius: 8px;
+}
+/* line 57, ../../../components/sass/modules/_slice_affinity_slideshow_full_width.scss */
+.slice_affinity_slideshow_full_width .bx-wrapper .bx-pager.bx-default-pager a:hover,
+.slice_affinity_slideshow_full_width .bx-wrapper .bx-pager.bx-default-pager a.active {
+  background: #5ac5c5;
+}
+/* line 61, ../../../components/sass/modules/_slice_affinity_slideshow_full_width.scss */
+.slice_affinity_slideshow_full_width .caption {
+  position: absolute;
+  top: 30%;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* line 71, ../../../components/sass/modules/_slice_affinity_slideshow_full_width.scss */
+.slice_affinity_slideshow_full_width .caption .divider {
+  border-top: 4px solid #d9cdc7;
+  opacity: 0.6;
+  margin: 15px auto;
+  max-width: 300px;
+  text-align: center;
+  display: none;
+}
+/* line 80, ../../../components/sass/modules/_slice_affinity_slideshow_full_width.scss */
+.slice_affinity_slideshow_full_width .caption .slideTitle {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  font-size: 50px;
+  line-height: 50px;
+  font-weight: 900;
+  text-shadow: rgba(0, 0, 0, 0.49) 0px 0px 6px;
+  text-align: center;
+}
+/* line 91, ../../../components/sass/modules/_slice_affinity_slideshow_full_width.scss */
+.slice_affinity_slideshow_full_width .caption .slideText {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 36px;
+  color: #fff;
+  line-height: 36px;
+  font-weight: 900;
+  text-align: center;
+  display: none;
+}
+/* line 102, ../../../components/sass/modules/_slice_affinity_slideshow_full_width.scss */
+.slice_affinity_slideshow_full_width .caption .slideButton {
+  color: #fff;
+  border: 2px solid #fff;
+  background-color: transparent;
+  display: none;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  padding: 10px 16px;
+  border-radius: 3px;
+  text-align: center;
+  width: 150px;
+  margin: 0 auto;
+  -webkit-transition: background-color 500ms ease, border-color 500ms ease, color 500ms ease;
+  -o-transition: background-color 500ms ease, border-color 500ms ease, color 500ms ease;
+  transition: background-color 500ms ease, border-color 500ms ease, color 500ms ease;
+  text-decoration: none;
+}
+/* line 119, ../../../components/sass/modules/_slice_affinity_slideshow_full_width.scss */
+.slice_affinity_slideshow_full_width .caption .slideButton:hover {
+  background-color: #fff;
+  color: #4d4d4d;
+}
+@media (min-width: 480px) {
+  /* line 125, ../../../components/sass/modules/_slice_affinity_slideshow_full_width.scss */
+  .slice_affinity_slideshow_full_width .caption {
+    top: 8%;
+  }
+  /* line 129, ../../../components/sass/modules/_slice_affinity_slideshow_full_width.scss */
+  .slice_affinity_slideshow_full_width .caption .divider {
+    display: block;
+  }
+  /* line 133, ../../../components/sass/modules/_slice_affinity_slideshow_full_width.scss */
+  .slice_affinity_slideshow_full_width .caption .slideTitle {
+    font-size: 55px;
+    line-height: 55px;
+  }
+  /* line 137, ../../../components/sass/modules/_slice_affinity_slideshow_full_width.scss */
+  .slice_affinity_slideshow_full_width .caption .slideText {
+    display: block;
+  }
+}
+@media (min-width: 768px) {
+  /* line 144, ../../../components/sass/modules/_slice_affinity_slideshow_full_width.scss */
+  .slice_affinity_slideshow_full_width .caption {
+    top: 8%;
+  }
+  /* line 148, ../../../components/sass/modules/_slice_affinity_slideshow_full_width.scss */
+  .slice_affinity_slideshow_full_width .caption .slideTitle {
+    font-size: 60px;
+    line-height: 60px;
+  }
+  /* line 152, ../../../components/sass/modules/_slice_affinity_slideshow_full_width.scss */
+  .slice_affinity_slideshow_full_width .caption .slideButton {
+    display: block;
+  }
+}
+@media (min-width: 992px) {
+  /* line 161, ../../../components/sass/modules/_slice_affinity_slideshow_full_width.scss */
+  .slice_affinity_slideshow_full_width .caption {
+    top: 18%;
+  }
+  /* line 165, ../../../components/sass/modules/_slice_affinity_slideshow_full_width.scss */
+  .slice_affinity_slideshow_full_width .caption .slideTitle {
+    font-size: 85px;
+    line-height: 80px;
+  }
+}
+
+/*
+ @import "./modules/slice_affinity_slideshow_oslider";
+@import "./modules/slice_affinity_slideshow_bg";
+@import "./modules/slice_affinity_slideshow_advert";
+@import "./modules/slice_affinity_4_graphic_blocks";
+*/
+/* line 5, ../../../components/sass/modules/_slice_affinity_4_al.scss */
+.slice_affinity_4_al {
+  padding-top: 30px;
+  padding-bottom: 0;
+}
+/* line 10, ../../../components/sass/modules/_slice_affinity_4_al.scss */
+.slice_affinity_4_al .info_header {
+  margin: 0 auto;
+  text-align: center;
+}
+/* line 15, ../../../components/sass/modules/_slice_affinity_4_al.scss */
+.slice_affinity_4_al .info_header .info_header_title {
+  color: #4d4d4d;
+  font-size: 28px;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 10px;
+  line-height: 28px;
+  font-weight: 900;
+}
+/* line 23, ../../../components/sass/modules/_slice_affinity_4_al.scss */
+.slice_affinity_4_al .info_header .info_header_text {
+  color: #4d4d4d;
+  font-size: 15px;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 30px;
+}
+/* line 31, ../../../components/sass/modules/_slice_affinity_4_al.scss */
+.slice_affinity_4_al .info_cards > div {
+  float: left;
+}
+/* line 40, ../../../components/sass/modules/_slice_affinity_4_al.scss */
+.slice_affinity_4_al .info_cards .articleListImage img {
+  border: 5px solid #d1d2d4;
+  -webkit-border-radius: 94px;
+  -moz-border-radius: 94px;
+  border-radius: 94px;
+  display: block;
+  margin: 0 auto 20px;
+  max-width: 179px;
+  -webkit-transition: all 500ms ease;
+  transition: all 500ms ease;
+}
+/* line 51, ../../../components/sass/modules/_slice_affinity_4_al.scss */
+.slice_affinity_4_al .info_cards .articleListImage img:hover {
+  opacity: 0.7;
+}
+/* line 56, ../../../components/sass/modules/_slice_affinity_4_al.scss */
+.slice_affinity_4_al .info_cards .articleListTitle a {
+  color: #4d4d4d;
+  font-size: 20px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 900;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  margin: 0 auto 25px;
+}
+/* line 68, ../../../components/sass/modules/_slice_affinity_4_al.scss */
+.slice_affinity_4_al .info_cards .articleListSummary {
+  color: #4d4d4d;
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  margin: 0 auto 20px;
+  padding: 0 35px !important;
+}
+/* line 77, ../../../components/sass/modules/_slice_affinity_4_al.scss */
+.slice_affinity_4_al .info_cards .info_cards_button_wrapper {
+  text-align: center;
+  margin-bottom: 45px;
+}
+/* line 82, ../../../components/sass/modules/_slice_affinity_4_al.scss */
+.slice_affinity_4_al .info_cards .info_cards_button_wrapper .info_cards_button {
+  display: inline-block;
+  margin-top: 10px;
+  margin-right: 5px;
+  padding: 9px 15px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  -webkit-transition: background-color 500ms ease;
+  transition: background-color 500ms ease;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 1px;
+  text-decoration: none;
+  text-transform: uppercase;
+  border: 2px solid #d1d2d4;
+  background-color: transparent;
+  color: #4d4d4d;
+}
+/* line 101, ../../../components/sass/modules/_slice_affinity_4_al.scss */
+.slice_affinity_4_al .info_cards .info_cards_button_wrapper .info_cards_button:hover {
+  background-color: #5ac5c5;
+  color: #fff;
+}
+@media (min-width: 768px) {
+  /* line 113, ../../../components/sass/modules/_slice_affinity_4_al.scss */
+  .slice_affinity_4_al .info_header .info_header_title {
+    font-size: 42px;
+    margin-bottom: 10px;
+    line-height: 42px;
+  }
+  /* line 118, ../../../components/sass/modules/_slice_affinity_4_al.scss */
+  .slice_affinity_4_al .info_header .info_header_text {
+    margin-bottom: 35px;
+    font-size: 18px;
+  }
+  /* line 125, ../../../components/sass/modules/_slice_affinity_4_al.scss */
+  .slice_affinity_4_al .articleListSummary {
+    min-height: 80px;
+    padding: 0 50px !important;
+  }
+}
+@media (min-width: 992px) {
+  /* line 5, ../../../components/sass/modules/_slice_affinity_4_al.scss */
+  .slice_affinity_4_al {
+    padding-bottom: 30px;
+  }
+  /* line 138, ../../../components/sass/modules/_slice_affinity_4_al.scss */
+  .slice_affinity_4_al .info_cards .articleListSummary {
+    min-height: 150px;
+    padding: 0 25px !important;
+  }
+  /* line 143, ../../../components/sass/modules/_slice_affinity_4_al.scss */
+  .slice_affinity_4_al .info_cards .info_cards_button_wrapper {
+    margin-bottom: 0;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 153, ../../../components/sass/modules/_slice_affinity_4_al.scss */
+  .slice_affinity_4_al .info_cards .articleListSummary {
+    min-height: 100px;
+  }
+}
+
+/* line 5, ../../../components/sass/modules/_slice_affinity_map.scss */
+.slice_affinity_map {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+/* line 11, ../../../components/sass/modules/_slice_affinity_map.scss */
+.slice_affinity_map .map-container > div {
+  pointer-events: none;
+}
+
+/* line 5, ../../../components/sass/modules/_slice_affinity_form.scss */
+.slice_affinity_form {
+  padding-top: 30px;
+  padding-bottom: 60px;
+}
+/* line 10, ../../../components/sass/modules/_slice_affinity_form.scss */
+.slice_affinity_form .info_header {
+  margin: 0 auto;
+  text-align: center;
+}
+/* line 15, ../../../components/sass/modules/_slice_affinity_form.scss */
+.slice_affinity_form .info_header .info_header_title {
+  color: #4d4d4d;
+  font-size: 28px;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 10px;
+  line-height: 28px;
+  font-weight: 900;
+}
+/* line 23, ../../../components/sass/modules/_slice_affinity_form.scss */
+.slice_affinity_form .info_header .info_header_text {
+  color: #4d4d4d;
+  font-size: 15px;
+  font-family: "Open Sans", sans-serif;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+/* line 32, ../../../components/sass/modules/_slice_affinity_form.scss */
+.slice_affinity_form .form_wrapper {
+  background-color: #eff0f2;
+  padding: 35px 20px 0;
+}
+/* line 37, ../../../components/sass/modules/_slice_affinity_form.scss */
+.slice_affinity_form .form_wrapper:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* line 43, ../../../components/sass/modules/_slice_affinity_form.scss */
+.slice_affinity_form .form_wrapper label {
+  font-weight: normal;
+}
+/* line 47, ../../../components/sass/modules/_slice_affinity_form.scss */
+.slice_affinity_form .form_wrapper .form_fields_line3 {
+  text-align: center;
+  margin-bottom: 45px;
+}
+/* line 52, ../../../components/sass/modules/_slice_affinity_form.scss */
+.slice_affinity_form .form_wrapper .form_fields_line3 .sitebutton {
+  display: inline-block;
+  margin-top: 25px;
+  margin-right: 5px;
+  padding: 9px 15px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  -webkit-transition: background-color 500ms ease;
+  transition: background-color 500ms ease;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 1px;
+  text-decoration: none;
+  text-transform: uppercase;
+  border: 2px solid #5ac5c5;
+  background-color: #5ac5c5;
+  color: #fff;
+}
+/* line 71, ../../../components/sass/modules/_slice_affinity_form.scss */
+.slice_affinity_form .form_wrapper .form_fields_line3 .sitebutton:hover {
+  opacity: 0.7;
+}
+@media (min-width: 768px) {
+  /* line 83, ../../../components/sass/modules/_slice_affinity_form.scss */
+  .slice_affinity_form .info_header .info_header_title {
+    font-size: 42px;
+    line-height: 44.8px;
+  }
+  /* line 87, ../../../components/sass/modules/_slice_affinity_form.scss */
+  .slice_affinity_form .info_header .info_header_text {
+    margin-bottom: 35px;
+    font-size: 18px;
+  }
+}
+@media (min-width: 992px) {
+  /* line 98, ../../../components/sass/modules/_slice_affinity_form.scss */
+  .slice_affinity_form .info_cards .articleListSummary {
+    min-height: 90px;
+  }
+  /* line 102, ../../../components/sass/modules/_slice_affinity_form.scss */
+  .slice_affinity_form .info_cards .info_cards_button_wrapper {
+    margin-bottom: 35px;
+  }
+}
+
+/* line 8, ../../../components/sass/modules/_slice_affinity_latest_news.scss */
+.slice_affinity_latest_news {
+  padding-top: 40px;
+  padding-bottom: 10px;
+  background-color: #4d4d4d;
+}
+/* line 14, ../../../components/sass/modules/_slice_affinity_latest_news.scss */
+.slice_affinity_latest_news .info_header {
+  margin: 0 auto;
+  text-align: center;
+}
+/* line 19, ../../../components/sass/modules/_slice_affinity_latest_news.scss */
+.slice_affinity_latest_news .info_header .info_header_title {
+  color: #fff;
+  font-size: 28px;
+  font-family: "Open Sans", sans-serif;
+  line-height: 28px;
+  margin-bottom: 10px;
+  font-weight: 900;
+}
+/* line 27, ../../../components/sass/modules/_slice_affinity_latest_news.scss */
+.slice_affinity_latest_news .info_header .info_header_text {
+  color: #fff;
+  font-size: 15px;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 30px;
+}
+/* line 37, ../../../components/sass/modules/_slice_affinity_latest_news.scss */
+.slice_affinity_latest_news .news_cards > div {
+  margin-bottom: 40px;
+  float: left;
+}
+/* line 56, ../../../components/sass/modules/_slice_affinity_latest_news.scss */
+.slice_affinity_latest_news .news_cards .articleListImage img {
+  display: block;
+  -webkit-transition: all 500ms ease;
+  transition: all 500ms ease;
+  -webkit-backface-visibility: hidden;
+}
+/* line 62, ../../../components/sass/modules/_slice_affinity_latest_news.scss */
+.slice_affinity_latest_news .news_cards .articleListImage img:hover {
+  opacity: 0.7;
+  transform: rotate(0);
+  -webkit-transform: rotate(0);
+  -moz-transform: rotate(0);
+}
+/* line 70, ../../../components/sass/modules/_slice_affinity_latest_news.scss */
+.slice_affinity_latest_news .news_cards .articleListTitle {
+  background-color: #fff;
+  padding: 10px 20px 0 !important;
+}
+/* line 74, ../../../components/sass/modules/_slice_affinity_latest_news.scss */
+.slice_affinity_latest_news .news_cards .articleListTitle a {
+  color: #4d4d4d;
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  text-decoration: none;
+  font-weight: bold;
+}
+/* line 83, ../../../components/sass/modules/_slice_affinity_latest_news.scss */
+.slice_affinity_latest_news .news_cards .articleListDate {
+  color: #4d4d4d;
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  background-color: #fff;
+  text-decoration: none;
+  display: block;
+  padding: 4px 20px 0 !important;
+}
+/* line 93, ../../../components/sass/modules/_slice_affinity_latest_news.scss */
+.slice_affinity_latest_news .news_cards .articleListSummary {
+  color: #4d4d4d;
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  background-color: #fff;
+  padding: 5px 20px 20px !important;
+}
+/* line 101, ../../../components/sass/modules/_slice_affinity_latest_news.scss */
+.slice_affinity_latest_news .news_cards .articleListLink {
+  background-color: #fff;
+  border-top: 1px solid #ededed;
+}
+/* line 106, ../../../components/sass/modules/_slice_affinity_latest_news.scss */
+.slice_affinity_latest_news .news_cards .articleListLink a {
+  display: inline-block;
+  -webkit-transition: all 500ms ease;
+  transition: all 500ms ease;
+  font-size: 14px;
+  text-decoration: none;
+  background-color: #fff;
+  color: #4d4d4d;
+  padding: 8px 20px 9px !important;
+}
+/* line 117, ../../../components/sass/modules/_slice_affinity_latest_news.scss */
+.slice_affinity_latest_news .news_cards .articleListLink a:hover {
+  color: #2aabab;
+}
+/* line 126, ../../../components/sass/modules/_slice_affinity_latest_news.scss */
+.slice_affinity_latest_news .news_cards_button {
+  display: block;
+  margin: 20px auto 40px;
+  max-width: 150px;
+  padding: 9px 15px;
+  border-radius: 2px;
+  transition: background-color 500ms ease;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 1px;
+  text-decoration: none;
+  text-transform: uppercase;
+  border: 2px solid #d1d2d4;
+  background-color: transparent;
+  color: #eff0f2;
+}
+/* line 142, ../../../components/sass/modules/_slice_affinity_latest_news.scss */
+.slice_affinity_latest_news .news_cards_button:hover {
+  background-color: #5ac5c5;
+  border: 2px solid #5ac5c5;
+  color: #fff;
+}
+@media (min-width: 768px) {
+  /* line 8, ../../../components/sass/modules/_slice_affinity_latest_news.scss */
+  .slice_affinity_latest_news {
+    padding-top: 0;
+    padding-bottom: 20px;
+  }
+  /* line 154, ../../../components/sass/modules/_slice_affinity_latest_news.scss */
+  .slice_affinity_latest_news .info_header {
+    padding-top: 60px;
+    padding-bottom: 30px;
+  }
+  /* line 159, ../../../components/sass/modules/_slice_affinity_latest_news.scss */
+  .slice_affinity_latest_news .info_header .info_header_title {
+    font-size: 42px;
+    margin-bottom: 10px;
+    line-height: 42px;
+  }
+  /* line 164, ../../../components/sass/modules/_slice_affinity_latest_news.scss */
+  .slice_affinity_latest_news .info_header .info_header_text {
+    margin-bottom: 35px;
+    font-size: 18px;
+  }
+}
+
+/* line 5, ../../../components/sass/modules/_slice_affinity_mini_slideshow.scss */
+.slice_affinity_mini_slideshow {
+  padding-top: 30px;
+  padding-bottom: 10px;
+  background-color: #fff;
+}
+/* line 11, ../../../components/sass/modules/_slice_affinity_mini_slideshow.scss */
+.slice_affinity_mini_slideshow .info_header {
+  margin: 0 auto;
+  text-align: center;
+}
+/* line 16, ../../../components/sass/modules/_slice_affinity_mini_slideshow.scss */
+.slice_affinity_mini_slideshow .info_header .info_header_title {
+  color: #4d4d4d;
+  font-size: 28px;
+  font-family: "Open Sans", sans-serif;
+  line-height: 56px;
+  font-weight: bold;
+}
+/* line 27, ../../../components/sass/modules/_slice_affinity_mini_slideshow.scss */
+.slice_affinity_mini_slideshow .miniSlides {
+  margin-top: 35px;
+}
+/* line 30, ../../../components/sass/modules/_slice_affinity_mini_slideshow.scss */
+.slice_affinity_mini_slideshow .miniSlides .bx-wrapper {
+  max-width: 700px !important;
+}
+/* line 34, ../../../components/sass/modules/_slice_affinity_mini_slideshow.scss */
+.slice_affinity_mini_slideshow .miniSlides .gallery_ul {
+  display: none;
+}
+/* line 37, ../../../components/sass/modules/_slice_affinity_mini_slideshow.scss */
+.slice_affinity_mini_slideshow .miniSlides .gallery_li img {
+  height: 100%;
+  width: 100%;
+}
+/* line 42, ../../../components/sass/modules/_slice_affinity_mini_slideshow.scss */
+.slice_affinity_mini_slideshow .bx-wrapper {
+  border: none !important;
+  box-shadow: none !important;
+  -moz-box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+  left: 0 !important;
+  -webkit-transform: translatez(0);
+  -moz-transform: translatez(0);
+  -ms-transform: translatez(0);
+  -o-transform: translatez(0);
+  transform: translatez(0);
+}
+/* line 55, ../../../components/sass/modules/_slice_affinity_mini_slideshow.scss */
+.slice_affinity_mini_slideshow .miniSlides .gallery_ul {
+  padding: 0;
+}
+/* line 59, ../../../components/sass/modules/_slice_affinity_mini_slideshow.scss */
+.slice_affinity_mini_slideshow .bx-controls.bx-has-pager {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  bottom: 0;
+}
+/* line 68, ../../../components/sass/modules/_slice_affinity_mini_slideshow.scss */
+.slice_affinity_mini_slideshow .bx-wrapper .bx-pager.bx-default-pager a {
+  background: #d1d2d4;
+  -webkit-transition: background-color 500ms ease;
+  -o-transition: background-color 500ms ease;
+  transition: background-color 500ms ease;
+  width: 16px;
+  height: 16px;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  border-radius: 8px;
+}
+/* line 80, ../../../components/sass/modules/_slice_affinity_mini_slideshow.scss */
+.slice_affinity_mini_slideshow .bx-wrapper .bx-pager.bx-default-pager a:hover,
+.slice_affinity_mini_slideshow .bx-wrapper .bx-pager.bx-default-pager a.active {
+  background: #5ac5c5;
+}
+/* line 85, ../../../components/sass/modules/_slice_affinity_mini_slideshow.scss */
+.slice_affinity_mini_slideshow .bx-wrapper .bx-prev {
+  left: -60px;
+  background: url(../images/affinity-arrow-left-dark.png) no-repeat 20px center;
+  opacity: 0.5;
+  height: 76px;
+}
+/* line 92, ../../../components/sass/modules/_slice_affinity_mini_slideshow.scss */
+.slice_affinity_mini_slideshow .bx-wrapper .bx-next {
+  right: -40px;
+  background: url(../images/affinity-arrow-right-dark.png) no-repeat 20px center;
+  opacity: 0.5;
+  height: 76px;
+}
+/* line 99, ../../../components/sass/modules/_slice_affinity_mini_slideshow.scss */
+.slice_affinity_mini_slideshow .bx-wrapper .bx-prev:hover,
+.slice_affinity_mini_slideshow .bx-wrapper .bx-prev:focus {
+  opacity: 1;
+}
+/* line 104, ../../../components/sass/modules/_slice_affinity_mini_slideshow.scss */
+.slice_affinity_mini_slideshow .bx-wrapper .bx-next:hover,
+.slice_affinity_mini_slideshow .bx-wrapper .bx-next:focus {
+  opacity: 1;
+}
+/* line 108, ../../../components/sass/modules/_slice_affinity_mini_slideshow.scss */
+.slice_affinity_mini_slideshow .miniSlides.bx-controls-direction {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 1000px;
+  left: 50%;
+  margin-left: -500px;
+}
+/* line 116, ../../../components/sass/modules/_slice_affinity_mini_slideshow.scss */
+.slice_affinity_mini_slideshow .bx-wrapper .bx-controls-direction a {
+  position: absolute;
+  top: -162px;
+  margin-top: -25px;
+  outline: 0;
+  width: 40px;
+  height: 76px;
+  text-indent: -9999px;
+  z-index: 99999999;
+  background-color: #fff;
+  display: none;
+}
+/* line 129, ../../../components/sass/modules/_slice_affinity_mini_slideshow.scss */
+.slice_affinity_mini_slideshow .mini_slideshow_button {
+  display: block;
+  margin: 20px auto 40px;
+  max-width: 210px;
+  padding: 9px 15px;
+  border-radius: 2px;
+  transition: background-color 500ms ease;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 1px;
+  text-decoration: none;
+  text-transform: uppercase;
+  border: 2px solid #d1d2d4;
+  background-color: #fff;
+  color: #4d4d4d;
+}
+/* line 145, ../../../components/sass/modules/_slice_affinity_mini_slideshow.scss */
+.slice_affinity_mini_slideshow .mini_slideshow_button:hover {
+  background-color: #5ac5c5;
+  border: 2px solid #5ac5c5;
+  color: #fff;
+}
+@media (min-width: 768px) {
+  /* line 5, ../../../components/sass/modules/_slice_affinity_mini_slideshow.scss */
+  .slice_affinity_mini_slideshow {
+    padding-top: 60px;
+    padding-bottom: 30px;
+  }
+  /* line 159, ../../../components/sass/modules/_slice_affinity_mini_slideshow.scss */
+  .slice_affinity_mini_slideshow .info_header .info_header_title {
+    font-size: 42px;
+  }
+  /* line 162, ../../../components/sass/modules/_slice_affinity_mini_slideshow.scss */
+  .slice_affinity_mini_slideshow .info_header .info_header_text {
+    margin-bottom: 35px;
+  }
+  /* line 167, ../../../components/sass/modules/_slice_affinity_mini_slideshow.scss */
+  .slice_affinity_mini_slideshow .bx-wrapper .bx-controls-direction a {
+    top: -163px;
+    display: block;
+  }
+}
+@media (min-width: 992px) {
+  /* line 176, ../../../components/sass/modules/_slice_affinity_mini_slideshow.scss */
+  .slice_affinity_mini_slideshow .bx-wrapper .bx-controls-direction a {
+    top: -164px;
+  }
+}
+
+/* line 5, ../../../components/sass/modules/_slice_affinity_video.scss */
+.slice_affinity_video {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #fff;
+}
+/* line 12, ../../../components/sass/modules/_slice_affinity_video.scss */
+.slice_affinity_video .info_header {
+  margin: 0 auto;
+  text-align: center;
+}
+/* line 17, ../../../components/sass/modules/_slice_affinity_video.scss */
+.slice_affinity_video .info_header .info_header_title {
+  color: #4d4d4d;
+  font-size: 28px;
+  font-family: "Open Sans", sans-serif;
+  line-height: 56px;
+  font-weight: bold;
+}
+/* line 27, ../../../components/sass/modules/_slice_affinity_video.scss */
+.slice_affinity_video .video_wrapper {
+  margin: 35px auto;
+  text-align: center;
+  max-width: 800px;
+}
+/* line 33, ../../../components/sass/modules/_slice_affinity_video.scss */
+.slice_affinity_video .video_button {
+  display: block;
+  margin: 20px auto 40px;
+  max-width: 210px;
+  padding: 9px 15px;
+  border-radius: 2px;
+  transition: background-color 500ms ease;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 1px;
+  text-decoration: none;
+  text-transform: uppercase;
+  border: 2px solid #d1d2d4;
+  background-color: #fff;
+  color: #4d4d4d;
+}
+/* line 49, ../../../components/sass/modules/_slice_affinity_video.scss */
+.slice_affinity_video .video_button:hover {
+  background-color: #5ac5c5;
+  border: 2px solid #5ac5c5;
+  color: #fff;
+}
+@media (min-width: 768px) {
+  /* line 5, ../../../components/sass/modules/_slice_affinity_video.scss */
+  .slice_affinity_video {
+    margin-top: 30px;
+  }
+  /* line 62, ../../../components/sass/modules/_slice_affinity_video.scss */
+  .slice_affinity_video .info_header .info_header_title {
+    font-size: 42px;
+  }
+  /* line 65, ../../../components/sass/modules/_slice_affinity_video.scss */
+  .slice_affinity_video .info_header .info_header_text {
+    margin-bottom: 35px;
+  }
+}
+
+/* line 8, ../../../components/sass/modules/_slice_affinity_recent_media.scss */
+.slice_affinity_recent_media {
+  padding-top: 60px;
+  padding-bottom: 30px;
+  background-color: #eff0f2;
+}
+/* line 14, ../../../components/sass/modules/_slice_affinity_recent_media.scss */
+.slice_affinity_recent_media .info_header {
+  margin: 0 auto;
+  text-align: center;
+}
+/* line 19, ../../../components/sass/modules/_slice_affinity_recent_media.scss */
+.slice_affinity_recent_media .info_header .info_header_title {
+  color: #4d4d4d;
+  font-size: 28px;
+  font-family: "Open Sans", sans-serif;
+  line-height: 28px;
+  margin-bottom: 10px;
+  font-weight: 900;
+}
+/* line 28, ../../../components/sass/modules/_slice_affinity_recent_media.scss */
+.slice_affinity_recent_media .info_header .info_header_text {
+  color: #4d4d4d;
+  font-size: 15px;
+  font-family: "Open Sans", sans-serif;
+  line-height: 20px;
+  margin-bottom: 24px;
+}
+/* line 38, ../../../components/sass/modules/_slice_affinity_recent_media.scss */
+.slice_affinity_recent_media .media_cards {
+  float: left;
+}
+/* line 46, ../../../components/sass/modules/_slice_affinity_recent_media.scss */
+.slice_affinity_recent_media .media_cards > span > div {
+  margin-bottom: 40px;
+  float: left;
+}
+/* line 67, ../../../components/sass/modules/_slice_affinity_recent_media.scss */
+.slice_affinity_recent_media .media_cards .mediaListImage a img {
+  -webkit-transition: all 500ms ease;
+  transition: all 500ms ease;
+  -webkit-backface-visibility: hidden;
+}
+/* line 73, ../../../components/sass/modules/_slice_affinity_recent_media.scss */
+.slice_affinity_recent_media .media_cards .mediaListImage a:hover img {
+  opacity: 0.7;
+  transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+}
+/* line 80, ../../../components/sass/modules/_slice_affinity_recent_media.scss */
+.slice_affinity_recent_media .media_cards .mediaListImage img {
+  display: block;
+}
+/* line 87, ../../../components/sass/modules/_slice_affinity_recent_media.scss */
+.slice_affinity_recent_media .media_cards .mediaListTitle {
+  background-color: #fff;
+  padding: 10px 20px 0 !important;
+}
+/* line 91, ../../../components/sass/modules/_slice_affinity_recent_media.scss */
+.slice_affinity_recent_media .media_cards .mediaListTitle a {
+  color: #4d4d4d;
+  font-size: 20px;
+  font-family: "Open Sans", sans-serif;
+  text-decoration: none;
+}
+/* line 100, ../../../components/sass/modules/_slice_affinity_recent_media.scss */
+.slice_affinity_recent_media .media_cards .mediaListDesc {
+  color: #4d4d4d;
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  background-color: #fff;
+  padding: 5px 20px 20px !important;
+}
+/* line 108, ../../../components/sass/modules/_slice_affinity_recent_media.scss */
+.slice_affinity_recent_media .media_cards .mediaListLink {
+  background-color: #fff;
+  border-top: 1px solid #ededed;
+}
+/* line 113, ../../../components/sass/modules/_slice_affinity_recent_media.scss */
+.slice_affinity_recent_media .media_cards .mediaListLink a {
+  display: inline-block;
+  -webkit-transition: all 500ms ease;
+  transition: all 500ms ease;
+  font-size: 14px;
+  text-decoration: none;
+  background-color: #fff;
+  color: #4d4d4d;
+  padding: 8px 20px 9px !important;
+}
+/* line 124, ../../../components/sass/modules/_slice_affinity_recent_media.scss */
+.slice_affinity_recent_media .media_cards .mediaListLink a:hover {
+  color: #2aabab;
+}
+/* line 133, ../../../components/sass/modules/_slice_affinity_recent_media.scss */
+.slice_affinity_recent_media .media_cards_button {
+  display: block;
+  margin: 20px auto 40px;
+  max-width: 206px;
+  padding: 9px 15px;
+  border-radius: 2px;
+  transition: background-color 500ms ease;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 1px;
+  text-decoration: none;
+  text-transform: uppercase;
+  border: 2px solid #d1d2d4;
+  background-color: transparent;
+  color: #4d4d4d;
+  clear: both;
+}
+/* line 150, ../../../components/sass/modules/_slice_affinity_recent_media.scss */
+.slice_affinity_recent_media .media_cards_button:hover {
+  background-color: #5ac5c5;
+  border: 2px solid #5ac5c5;
+  color: #fff;
+}
+@media (min-width: 768px) {
+  /* line 161, ../../../components/sass/modules/_slice_affinity_recent_media.scss */
+  .slice_affinity_recent_media .info_header .info_header_title {
+    font-size: 42px;
+    margin-bottom: 10px;
+    line-height: 42px;
+  }
+  /* line 166, ../../../components/sass/modules/_slice_affinity_recent_media.scss */
+  .slice_affinity_recent_media .info_header .info_header_text {
+    margin-bottom: 35px;
+    font-size: 18px;
+  }
+}
+@media (min-width: 992px) {
+  /* line 178, ../../../components/sass/modules/_slice_affinity_recent_media.scss */
+  .slice_affinity_recent_media .media_cards {
+    float: none !important;
+    margin: 0 auto;
+  }
+}
+
+/* line 8, ../../../components/sass/modules/_slice_affinity_text_image_bg.scss */
+.slice_affinity_text_image_bg {
+  padding-top: 8.5%;
+  background-image: url(../images/affinity-text-image-bg.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+  background-attachment: scroll;
+  height: 410px;
+  overflow: hidden;
+}
+/* line 18, ../../../components/sass/modules/_slice_affinity_text_image_bg.scss */
+.slice_affinity_text_image_bg .icon-cup {
+  text-align: center;
+  margin-bottom: 20px;
+}
+/* line 21, ../../../components/sass/modules/_slice_affinity_text_image_bg.scss */
+.slice_affinity_text_image_bg .icon-cup img {
+  max-width: 65px;
+}
+/* line 25, ../../../components/sass/modules/_slice_affinity_text_image_bg.scss */
+.slice_affinity_text_image_bg .text_image {
+  margin: 0 auto;
+  text-align: center;
+}
+/* line 30, ../../../components/sass/modules/_slice_affinity_text_image_bg.scss */
+.slice_affinity_text_image_bg .text_image .text_image_title {
+  color: #fff;
+  font-size: 26px;
+  font-family: "Open Sans", sans-serif;
+  line-height: 28px;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+/* line 38, ../../../components/sass/modules/_slice_affinity_text_image_bg.scss */
+.slice_affinity_text_image_bg .text_image .text_image_text {
+  color: #fff;
+  font-size: 15px;
+  font-family: "Open Sans", sans-serif;
+  line-height: 20px;
+  margin-bottom: 24px;
+  font-weight: 300;
+}
+@media (min-width: 768px) {
+  /* line 8, ../../../components/sass/modules/_slice_affinity_text_image_bg.scss */
+  .slice_affinity_text_image_bg {
+    background-attachment: fixed;
+    padding-top: 70px;
+    height: 500px;
+  }
+  /* line 53, ../../../components/sass/modules/_slice_affinity_text_image_bg.scss */
+  .slice_affinity_text_image_bg .icon-cup {
+    margin-bottom: 25px;
+  }
+  /* line 55, ../../../components/sass/modules/_slice_affinity_text_image_bg.scss */
+  .slice_affinity_text_image_bg .icon-cup img {
+    max-width: 70px;
+  }
+  /* line 63, ../../../components/sass/modules/_slice_affinity_text_image_bg.scss */
+  .slice_affinity_text_image_bg .text_image .text_image_text {
+    line-height: 26px;
+  }
+}
+@media (min-width: 992px) {
+  /* line 8, ../../../components/sass/modules/_slice_affinity_text_image_bg.scss */
+  .slice_affinity_text_image_bg {
+    padding-top: 81px;
+    height: 536px;
+  }
+  /* line 74, ../../../components/sass/modules/_slice_affinity_text_image_bg.scss */
+  .slice_affinity_text_image_bg .text_image .text_image_title {
+    font-size: 39px;
+    margin-bottom: 20px;
+    line-height: 42px;
+  }
+  /* line 79, ../../../components/sass/modules/_slice_affinity_text_image_bg.scss */
+  .slice_affinity_text_image_bg .text_image .text_image_text {
+    font-size: 18px;
+    line-height: 28px;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 8, ../../../components/sass/modules/_slice_affinity_text_image_bg.scss */
+  .slice_affinity_text_image_bg {
+    padding-top: 119px;
+  }
+  /* line 95, ../../../components/sass/modules/_slice_affinity_text_image_bg.scss */
+  .slice_affinity_text_image_bg .text_image .text_image_text {
+    line-height: 30px;
+  }
+}
+
+/* line 5, ../../../components/sass/modules/_slice_affinity_3_locations.scss */
+.slice_affinity_3_locations {
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+/* line 10, ../../../components/sass/modules/_slice_affinity_3_locations.scss */
+.slice_affinity_3_locations .info_header {
+  margin: 0 auto;
+  text-align: center;
+}
+/* line 15, ../../../components/sass/modules/_slice_affinity_3_locations.scss */
+.slice_affinity_3_locations .info_header .info_header_title {
+  color: #4d4d4d;
+  font-size: 28px;
+  font-family: "Open Sans", sans-serif;
+  line-height: 28px;
+  margin-bottom: 10px;
+  font-weight: 900;
+}
+/* line 25, ../../../components/sass/modules/_slice_affinity_3_locations.scss */
+.slice_affinity_3_locations .info_card_summary {
+  text-align: center;
+  margin-top: 10px !important;
+  margin-bottom: 10px !important;
+}
+/* line 31, ../../../components/sass/modules/_slice_affinity_3_locations.scss */
+.slice_affinity_3_locations .info_cards {
+  margin-top: 35px;
+}
+/* line 33, ../../../components/sass/modules/_slice_affinity_3_locations.scss */
+.slice_affinity_3_locations .info_cards .info_card {
+  float: left;
+}
+/* line 36, ../../../components/sass/modules/_slice_affinity_3_locations.scss */
+.slice_affinity_3_locations .info_cards .info_card .info_card_image img {
+  border: 5px solid #d1d2d4;
+  -webkit-border-radius: 94px;
+  -moz-border-radius: 94px;
+  border-radius: 94px;
+  display: block;
+  margin: 0 auto 20px;
+  max-width: 179px;
+}
+/* line 46, ../../../components/sass/modules/_slice_affinity_3_locations.scss */
+.slice_affinity_3_locations .info_cards .info_card .info_card_title {
+  color: #4d4d4d;
+  font-size: 20px;
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  margin: 0 auto 12px;
+}
+/* line 57, ../../../components/sass/modules/_slice_affinity_3_locations.scss */
+.slice_affinity_3_locations .info_cards .info_card .info_card_button_wrapper {
+  text-align: center;
+  margin-bottom: 30px;
+}
+/* line 62, ../../../components/sass/modules/_slice_affinity_3_locations.scss */
+.slice_affinity_3_locations .info_cards .info_card .info_card_button_wrapper .info_card_button {
+  display: inline-block;
+  margin-top: 10px;
+  margin-right: 5px;
+  padding: 9px 15px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  -webkit-transition: background-color 500ms ease;
+  transition: background-color 500ms ease;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 1px;
+  text-decoration: none;
+  text-transform: uppercase;
+  border: 2px solid #d1d2d4;
+  background-color: transparent;
+  color: #4d4d4d;
+}
+/* line 81, ../../../components/sass/modules/_slice_affinity_3_locations.scss */
+.slice_affinity_3_locations .info_cards .info_card .info_card_button_wrapper .info_card_button:hover {
+  background-color: #5ac5c5;
+  color: #fff;
+}
+@media (min-width: 768px) {
+  /* line 94, ../../../components/sass/modules/_slice_affinity_3_locations.scss */
+  .slice_affinity_3_locations .info_header .info_header_title {
+    font-size: 39.2px;
+    line-height: 39.2px;
+    margin-bottom: 0;
+  }
+  /* line 99, ../../../components/sass/modules/_slice_affinity_3_locations.scss */
+  .slice_affinity_3_locations .info_header .info_header_text {
+    margin-bottom: 35px;
+  }
+}
+@media (min-width: 992px) {
+  /* line 5, ../../../components/sass/modules/_slice_affinity_3_locations.scss */
+  .slice_affinity_3_locations {
+    padding-top: 60px;
+    padding-bottom: 55px;
+  }
+  /* line 112, ../../../components/sass/modules/_slice_affinity_3_locations.scss */
+  .slice_affinity_3_locations .info_cards .info_card_button_wrapper {
+    margin-bottom: 0;
+  }
+}
+
+/* line 8, ../../../components/sass/modules/_slice_affinity_community.scss */
+.slice_affinity_community {
+  padding-top: 40px;
+  padding-bottom: 20px;
+  background-color: #eff0f2;
+}
+/* line 14, ../../../components/sass/modules/_slice_affinity_community.scss */
+.slice_affinity_community .info_header {
+  margin: 0 auto;
+  text-align: center;
+}
+/* line 19, ../../../components/sass/modules/_slice_affinity_community.scss */
+.slice_affinity_community .info_header .info_header_title {
+  color: #4d4d4d;
+  font-size: 28px;
+  font-family: "Open Sans", sans-serif;
+  line-height: 28px;
+  margin-bottom: 10px;
+  font-weight: 900;
+}
+/* line 28, ../../../components/sass/modules/_slice_affinity_community.scss */
+.slice_affinity_community .info_header .info_header_text {
+  color: #4d4d4d;
+  font-size: 15px;
+  font-family: "Open Sans", sans-serif;
+  line-height: 20px;
+  margin-bottom: 24px;
+}
+@media (min-width: 768px) {
+  /* line 8, ../../../components/sass/modules/_slice_affinity_community.scss */
+  .slice_affinity_community {
+    padding-top: 60px;
+  }
+  /* line 43, ../../../components/sass/modules/_slice_affinity_community.scss */
+  .slice_affinity_community .info_header .info_header_title {
+    font-size: 42px;
+    margin-bottom: 15px;
+    line-height: 42px;
+  }
+  /* line 48, ../../../components/sass/modules/_slice_affinity_community.scss */
+  .slice_affinity_community .info_header .info_header_text {
+    margin-bottom: 35px;
+    font-size: 15px 1.2;
+  }
+  /* line 55, ../../../components/sass/modules/_slice_affinity_community.scss */
+  .slice_affinity_community .gallery_li {
+    float: left;
+  }
+}
+/* line 60, ../../../components/sass/modules/_slice_affinity_community.scss */
+.slice_affinity_community .card_grid .gallery_ul {
+  padding-left: 0;
+}
+/* line 63, ../../../components/sass/modules/_slice_affinity_community.scss */
+.slice_affinity_community .card_grid .gallery_ul .gallery_li {
+  margin-bottom: 40px;
+}
+/* line 72, ../../../components/sass/modules/_slice_affinity_community.scss */
+.slice_affinity_community .card_grid .gallery_ul .gallery_li a img {
+  -webkit-transition: all 500ms ease;
+  transition: all 500ms ease;
+  display: block;
+  -webkit-backface-visibility: hidden;
+}
+/* line 78, ../../../components/sass/modules/_slice_affinity_community.scss */
+.slice_affinity_community .card_grid .gallery_ul .gallery_li a img:hover {
+  opacity: 0.7;
+  transform: rotate(0);
+  -webkit-transform: rotate(0);
+  -moz-transform: rotate(0);
+}
+/* line 87, ../../../components/sass/modules/_slice_affinity_community.scss */
+.slice_affinity_community .card_grid .gallery_ul .card_grid_title {
+  background-color: #fff;
+  padding: 10px 15px !important;
+  color: #4d4d4d;
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 900;
+  text-decoration: none;
+  display: block;
+  -webkit-transition: all 500ms ease;
+  transition: all 500ms ease;
+  cursor: default;
+}
+/* line 101, ../../../components/sass/modules/_slice_affinity_community.scss */
+.slice_affinity_community .card_grid .gallery_ul .card_grid_subtitle {
+  background-color: #fff;
+  padding: 0 15px 10px !important;
+  color: #4d4d4d;
+  font-size: 15px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  text-decoration: none;
+  display: block;
+  -webkit-transition: all 500ms ease;
+  transition: all 500ms ease;
+  cursor: default;
+}
+/* line 117, ../../../components/sass/modules/_slice_affinity_community.scss */
+.slice_affinity_community .card_grid_button {
+  display: block;
+  margin: 0 auto 40px;
+  max-width: 206px;
+  padding: 9px 15px;
+  border-radius: 2px;
+  transition: background-color 500ms ease;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 1px;
+  text-decoration: none;
+  text-transform: uppercase;
+  border: 2px solid #d1d2d4;
+  background-color: transparent;
+  color: #4d4d4d;
+}
+/* line 133, ../../../components/sass/modules/_slice_affinity_community.scss */
+.slice_affinity_community .card_grid_button:hover {
+  background-color: #5ac5c5;
+  border: 2px solid #5ac5c5;
+  color: #fff;
+}
+@media (min-width: 992px) {
+  /* line 8, ../../../components/sass/modules/_slice_affinity_community.scss */
+  .slice_affinity_community {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  /* line 143, ../../../components/sass/modules/_slice_affinity_community.scss */
+  .slice_affinity_community .card_grid_title {
+    font-size: 20px;
+  }
+  /* line 147, ../../../components/sass/modules/_slice_affinity_community.scss */
+  .slice_affinity_community .card_grid_subtitle {
+    font-size: 20px;
+  }
+}
+
+/* line 5, ../../../components/sass/modules/_slice_affinity_get_in_touch.scss */
+.slice_affinity_get_in_touch {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #5ac5c5;
+}
+/* line 10, ../../../components/sass/modules/_slice_affinity_get_in_touch.scss */
+.slice_affinity_get_in_touch .info_header {
+  margin: 0 auto;
+  text-align: center;
+}
+/* line 15, ../../../components/sass/modules/_slice_affinity_get_in_touch.scss */
+.slice_affinity_get_in_touch .info_header .info_header_title {
+  color: #fff;
+  font-size: 28px;
+  font-family: "Open Sans", sans-serif;
+  line-height: 36.4px;
+  font-weight: 900;
+}
+/* line 23, ../../../components/sass/modules/_slice_affinity_get_in_touch.scss */
+.slice_affinity_get_in_touch .info_header .info_header_text {
+  color: #fff;
+  font-size: 15px;
+  font-family: "Open Sans", sans-serif;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+/* line 32, ../../../components/sass/modules/_slice_affinity_get_in_touch.scss */
+.slice_affinity_get_in_touch .get_in_touch_wrapper {
+  background-color: #5ac5c5;
+  padding: 0px 20px 0;
+}
+/* line 37, ../../../components/sass/modules/_slice_affinity_get_in_touch.scss */
+.slice_affinity_get_in_touch .get_in_touch_wrapper:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* line 43, ../../../components/sass/modules/_slice_affinity_get_in_touch.scss */
+.slice_affinity_get_in_touch .get_in_touch_wrapper label {
+  font-weight: normal;
+  color: #fff;
+}
+/* line 47, ../../../components/sass/modules/_slice_affinity_get_in_touch.scss */
+.slice_affinity_get_in_touch .get_in_touch_wrapper .form_fields_line1, .slice_affinity_get_in_touch .get_in_touch_wrapper .form_fields_line2, .slice_affinity_get_in_touch .get_in_touch_wrapper .form_fields_line3, .slice_affinity_get_in_touch .get_in_touch_wrapper .form_fields_line4 {
+  margin-bottom: 15px;
+}
+/* line 51, ../../../components/sass/modules/_slice_affinity_get_in_touch.scss */
+.slice_affinity_get_in_touch .get_in_touch_wrapper .form_fields_line4 {
+  text-align: center;
+  margin-bottom: 45px;
+}
+/* line 56, ../../../components/sass/modules/_slice_affinity_get_in_touch.scss */
+.slice_affinity_get_in_touch .get_in_touch_wrapper .form_fields_line4 .sitebutton {
+  display: inline-block;
+  margin-top: 10px;
+  margin-right: 5px;
+  padding: 9px 15px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  -webkit-transition: background-color 500ms ease;
+  transition: background-color 500ms ease;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 1px;
+  text-decoration: none;
+  text-transform: uppercase;
+  border: 2px solid #fff;
+  background-color: transparent;
+  color: #fff;
+}
+/* line 75, ../../../components/sass/modules/_slice_affinity_get_in_touch.scss */
+.slice_affinity_get_in_touch .get_in_touch_wrapper .form_fields_line4 .sitebutton:hover {
+  color: #fff;
+  border: 2px solid #7fd7d7;
+  background-color: #7fd7d7;
+}
+/* line 85, ../../../components/sass/modules/_slice_affinity_get_in_touch.scss */
+.slice_affinity_get_in_touch .form_address {
+  color: #fff;
+  text-align: center;
+}
+/* line 89, ../../../components/sass/modules/_slice_affinity_get_in_touch.scss */
+.slice_affinity_get_in_touch .form_address .site_address {
+  margin-bottom: 8px;
+}
+@media (min-width: 768px) {
+  /* line 5, ../../../components/sass/modules/_slice_affinity_get_in_touch.scss */
+  .slice_affinity_get_in_touch {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  /* line 101, ../../../components/sass/modules/_slice_affinity_get_in_touch.scss */
+  .slice_affinity_get_in_touch .info_header .info_header_title {
+    font-size: 42px;
+    line-height: 42px;
+  }
+  /* line 105, ../../../components/sass/modules/_slice_affinity_get_in_touch.scss */
+  .slice_affinity_get_in_touch .info_header .info_header_text {
+    margin-bottom: 0;
+    font-size: 18px;
+  }
+  /* line 112, ../../../components/sass/modules/_slice_affinity_get_in_touch.scss */
+  .slice_affinity_get_in_touch .get_in_touch_wrapper {
+    padding: 20px 20px 0;
+  }
+}
+@media (min-width: 992px) {
+  /* line 121, ../../../components/sass/modules/_slice_affinity_get_in_touch.scss */
+  .slice_affinity_get_in_touch .info_cards .articleListSummary {
+    min-height: 90px;
+  }
+  /* line 125, ../../../components/sass/modules/_slice_affinity_get_in_touch.scss */
+  .slice_affinity_get_in_touch .info_cards .info_cards_button_wrapper {
+    margin-bottom: 35px;
+  }
+}
+
+/*
+@import "./modules/slice_affinity_3_info_columns";
+@import "./modules/slice_affinity_4_info_columns";
+*/
+/* line 5, ../../../components/sass/modules/_slice_affinity_footer.scss */
+.slice_affinity_footer {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #373f42;
+}
+/* line 12, ../../../components/sass/modules/_slice_affinity_footer.scss */
+.slice_affinity_footer .footer .footer_column {
+  margin-bottom: 35px;
+  text-align: center;
+}
+/* line 17, ../../../components/sass/modules/_slice_affinity_footer.scss */
+.slice_affinity_footer .footer .footer_column .footer_icon_block {
+  display: inline-block;
+  width: 55px;
+  height: 55px;
+  margin-right: 5px;
+  padding-top: 15px;
+  padding-right: 15px;
+  padding-left: 15px;
+  border-radius: 2px;
+  background-color: rgba(255, 255, 255, 0.09);
+  -webkit-transition: background-color 500ms ease;
+  -o-transition: background-color 500ms ease;
+  transition: background-color 500ms ease;
+}
+/* line 31, ../../../components/sass/modules/_slice_affinity_footer.scss */
+.slice_affinity_footer .footer .footer_column .footer_icon_block:hover {
+  background-color: #3c4d82;
+}
+/* line 34, ../../../components/sass/modules/_slice_affinity_footer.scss */
+.slice_affinity_footer .footer .footer_column .footer_icon_block.twitter:hover {
+  background-color: #0cb9f2;
+}
+/* line 37, ../../../components/sass/modules/_slice_affinity_footer.scss */
+.slice_affinity_footer .footer .footer_column .footer_icon_block.youtube:hover {
+  background-color: #b63f3f;
+}
+/* line 42, ../../../components/sass/modules/_slice_affinity_footer.scss */
+.slice_affinity_footer .footer .footer_column .footer_title {
+  margin-top: 0px;
+  margin-bottom: 20px;
+  color: white;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+/* line 52, ../../../components/sass/modules/_slice_affinity_footer.scss */
+.slice_affinity_footer .footer .footer_column .statusbar .greeting_div {
+  display: none;
+}
+/* line 56, ../../../components/sass/modules/_slice_affinity_footer.scss */
+.slice_affinity_footer .footer .footer_column .statusbar a {
+  display: inline-block;
+  height: 45px;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  padding-top: 9px;
+  padding-right: 12px;
+  padding-left: 12px;
+  border: 2px solid #31a7de;
+  border-color: rgba(255, 255, 255, 0.2);
+  border-radius: 2px;
+  background-color: transparent;
+  -webkit-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  transition: all 500ms ease;
+  color: #5ac5c5;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  min-width: 100px;
+  font-size: 14px;
+}
+/* line 78, ../../../components/sass/modules/_slice_affinity_footer.scss */
+.slice_affinity_footer .footer .footer_column .statusbar a:last-child {
+  margin-right: 0;
+}
+/* line 82, ../../../components/sass/modules/_slice_affinity_footer.scss */
+.slice_affinity_footer .footer .footer_column .statusbar a:hover {
+  border-color: #5ac5c5;
+  background-color: #5ac5c5;
+  color: #fff;
+}
+/* line 90, ../../../components/sass/modules/_slice_affinity_footer.scss */
+.slice_affinity_footer .footer .footer_column .search_box {
+  width: 232px;
+  margin: 0 auto;
+}
+@media (min-width: 768px) {
+  /* line 90, ../../../components/sass/modules/_slice_affinity_footer.scss */
+  .slice_affinity_footer .footer .footer_column .search_box {
+    width: 300px;
+  }
+}
+/* line 105, ../../../components/sass/modules/_slice_affinity_footer.scss */
+.slice_affinity_footer .footer .footer_column .search_box .search_button {
+  display: inline-block;
+  width: 40%;
+  height: 55px;
+  padding-top: 11px;
+  float: left;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  background-color: #5ac5c5;
+  -webkit-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  transition: all 500ms ease;
+  font-size: 16px;
+  font-weight: 700;
+}
+/* line 120, ../../../components/sass/modules/_slice_affinity_footer.scss */
+.slice_affinity_footer .footer .footer_column .search_box .search_button:hover {
+  background-color: #7fd7d7;
+}
+/* line 124, ../../../components/sass/modules/_slice_affinity_footer.scss */
+.slice_affinity_footer .footer .footer_column .search_box .search_title {
+  display: none;
+}
+/* line 128, ../../../components/sass/modules/_slice_affinity_footer.scss */
+.slice_affinity_footer .footer .footer_column .search_box .search_div {
+  margin-left: 0px;
+}
+@media (min-width: 768px) {
+  /* line 128, ../../../components/sass/modules/_slice_affinity_footer.scss */
+  .slice_affinity_footer .footer .footer_column .search_box .search_div {
+    margin-left: 30px;
+  }
+}
+@media (min-width: 992px) {
+  /* line 128, ../../../components/sass/modules/_slice_affinity_footer.scss */
+  .slice_affinity_footer .footer .footer_column .search_box .search_div {
+    margin-left: 35px;
+  }
+}
+/* line 141, ../../../components/sass/modules/_slice_affinity_footer.scss */
+.slice_affinity_footer .footer .footer_column .search_box .search_div input {
+  display: inline-block;
+  width: 180px;
+  height: 45px;
+  float: left;
+  border: 2px solid #fff;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  font-size: 16px;
+  padding: 8px 12px;
+  color: #a0a0a0;
+  -webkit-appearance: none;
+}
+/* line 157, ../../../components/sass/modules/_slice_affinity_footer.scss */
+.slice_affinity_footer .footer .footer_column .search_box .search_div input:focus {
+  border-color: #31a7de;
+  color: #000;
+  outline: none;
+}
+/* line 164, ../../../components/sass/modules/_slice_affinity_footer.scss */
+.slice_affinity_footer .footer .footer_column .search_box input.button {
+  width: 50px;
+  height: 45px;
+  line-height: 45px;
+  padding: 0;
+  float: left;
+  margin: 0;
+  border: none;
+  border-radius: 0 4px 4px 0;
+  background-color: #5ac5c5;
+  color: #fff;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+/* line 179, ../../../components/sass/modules/_slice_affinity_footer.scss */
+.slice_affinity_footer .footer .footer_column .search_box input.button:hover {
+  background-color: #7fd7d7;
+  border: none;
+}
+/* line 184, ../../../components/sass/modules/_slice_affinity_footer.scss */
+.slice_affinity_footer .footer .footer_column .search_box input.button:focus {
+  outline: none;
+}
+@media (min-width: 768px) {
+  /* line 5, ../../../components/sass/modules/_slice_affinity_footer.scss */
+  .slice_affinity_footer {
+    padding-top: 60px;
+  }
+}
+
+/*
+@import "./modules/slice_affinity_footer_3";
+*/
+/* line 5, ../../../components/sass/modules/_slice_affinity_footerbar.scss */
+.slice_affinity_footerbar {
+  background-color: #4d4d4d;
+}
+/* line 9, ../../../components/sass/modules/_slice_affinity_footerbar.scss */
+.slice_affinity_footerbar .footerbar {
+  font-size: 13px;
+  font-family: Lato, sans-serif;
+  text-align: center;
+  padding: 20px 0 20px;
+  line-height: 30px;
+}
+/* line 16, ../../../components/sass/modules/_slice_affinity_footerbar.scss */
+.slice_affinity_footerbar .footerbar a {
+  display: inline-block;
+  -webkit-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  transition: all 500ms ease;
+  text-decoration: none;
+  color: #b1b1b1;
+}
+/* line 23, ../../../components/sass/modules/_slice_affinity_footerbar.scss */
+.slice_affinity_footerbar .footerbar a:hover {
+  color: #FFF;
+}
+/* line 27, ../../../components/sass/modules/_slice_affinity_footerbar.scss */
+.slice_affinity_footerbar .footerbar a#footer_mobile, .slice_affinity_footerbar .footerbar a#footer_copyright, .slice_affinity_footerbar .footerbar a#footer_tc, .slice_affinity_footerbar .footerbar a#footer_privacy, .slice_affinity_footerbar .footerbar a #footer_help {
+  line-height: 16px;
+}
+/* line 31, ../../../components/sass/modules/_slice_affinity_footerbar.scss */
+.slice_affinity_footerbar .footerbar a#footer_mobile::after, .slice_affinity_footerbar .footerbar a#footer_copyright::after, .slice_affinity_footerbar .footerbar a#footer_tc::after, .slice_affinity_footerbar .footerbar a#footer_privacy::after {
+  content: "";
+  padding-left: 4px;
+  margin-right: 4px;
+}
+/* line 37, ../../../components/sass/modules/_slice_affinity_footerbar.scss */
+.slice_affinity_footerbar .footerbar a.footer {
+  float: left;
+  width: 100%;
+  border: none;
+  text-indent: -9999px;
+  background-image: url("../images/affinity-churchinsight-logo.png");
+  background-size: 158px 28px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: transparent;
+  height: 30px;
+  margin-bottom: 10px;
+}
+/* line 50, ../../../components/sass/modules/_slice_affinity_footerbar.scss */
+.slice_affinity_footerbar .footerbar a.footer.footer:hover {
+  background-image: url("../images/affinity-churchinsight-logo-hover.png");
+}
+/* line 55, ../../../components/sass/modules/_slice_affinity_footerbar.scss */
+.slice_affinity_footerbar .footerbar span#footer_charity {
+  float: right;
+  width: 100%;
+  color: #b1b1b1;
+}
+@media only screen and (min-width: 992px) {
+  /* line 9, ../../../components/sass/modules/_slice_affinity_footerbar.scss */
+  .slice_affinity_footerbar .footerbar {
+    padding: 25px 0 0;
+  }
+  /* line 67, ../../../components/sass/modules/_slice_affinity_footerbar.scss */
+  .slice_affinity_footerbar .footerbar a.footer {
+    width: 25%;
+    margin-bottom: 25px;
+  }
+  /* line 72, ../../../components/sass/modules/_slice_affinity_footerbar.scss */
+  .slice_affinity_footerbar .footerbar a#footer_mobile::after, .slice_affinity_footerbar .footerbar a#footer_copyright::after, .slice_affinity_footerbar .footerbar a#footer_tc::after, .slice_affinity_footerbar .footerbar a#footer_privacy::after {
+    content: "|";
+    padding-left: 10px;
+    margin-right: 10px;
+    color: #b1b1b1;
+  }
+  /* line 81, ../../../components/sass/modules/_slice_affinity_footerbar.scss */
+  .slice_affinity_footerbar .footerbar span#footer_charity {
+    width: 25%;
+  }
+}
+
+/* line 6, ../../../components/sass/modules/_slice_affinity_content_page.scss */
+.slice_affinity_content_page .content_page_banner {
+  margin-bottom: 30px;
+}
+/* line 13, ../../../components/sass/modules/_slice_affinity_content_page.scss */
+.slice_affinity_content_page .content_page_main .content_page_main_content blockquote {
+  padding: 15px;
+  margin: 0;
+  border: none;
+  background-color: #f5f5f5;
+}
+/* line 21, ../../../components/sass/modules/_slice_affinity_content_page.scss */
+.slice_affinity_content_page .content_page_main .content_page_main_sidebar {
+  margin-top: 38px;
+}
+/* line 24, ../../../components/sass/modules/_slice_affinity_content_page.scss */
+.slice_affinity_content_page .content_page_main .content_page_main_sidebar .content_page_main_sidebar_nav {
+  background: #FFF;
+}
+/* line 30, ../../../components/sass/modules/_slice_affinity_content_page.scss */
+.slice_affinity_content_page .content_page_main .content_page_main_sidebar .content_page_main_sidebar_nav table.boxout_header td {
+  padding: 0;
+}
+/* line 34, ../../../components/sass/modules/_slice_affinity_content_page.scss */
+.slice_affinity_content_page .content_page_main .content_page_main_sidebar .content_page_main_sidebar_nav table.boxout_header .boxout_header_left, .slice_affinity_content_page .content_page_main .content_page_main_sidebar .content_page_main_sidebar_nav table.boxout_header .boxout_header_right {
+  display: none;
+}
+/* line 38, ../../../components/sass/modules/_slice_affinity_content_page.scss */
+.slice_affinity_content_page .content_page_main .content_page_main_sidebar .content_page_main_sidebar_nav table.boxout_header .boxout_header_middle {
+  margin-top: 0;
+  padding: 0;
+}
+/* line 43, ../../../components/sass/modules/_slice_affinity_content_page.scss */
+.slice_affinity_content_page .content_page_main .content_page_main_sidebar .content_page_main_sidebar_nav table.boxout_header .boxout_header_middle a {
+  display: block;
+  padding: 10px 12px;
+  color: #fff;
+  font-size: 15px;
+  text-decoration: none;
+  margin-bottom: 1px;
+  float: left;
+  width: 100%;
+  background-color: #5ac5c5;
+  text-transform: uppercase;
+}
+/* line 55, ../../../components/sass/modules/_slice_affinity_content_page.scss */
+.slice_affinity_content_page .content_page_main .content_page_main_sidebar .content_page_main_sidebar_nav table.boxout_header .boxout_header_middle a:hover {
+  background-color: #5ac5c5;
+  color: #fff;
+}
+/* line 63, ../../../components/sass/modules/_slice_affinity_content_page.scss */
+.slice_affinity_content_page .content_page_main .content_page_main_sidebar .content_page_main_sidebar_nav .group_nav_child, .slice_affinity_content_page .content_page_main .content_page_main_sidebar .content_page_main_sidebar_nav .group_nav_sibling, .slice_affinity_content_page .content_page_main .content_page_main_sidebar .content_page_main_sidebar_nav .group_nav_parent, .slice_affinity_content_page .content_page_main .content_page_main_sidebar .content_page_main_sidebar_nav .group_nav_selected {
+  float: left;
+  width: 100%;
+}
+/* line 67, ../../../components/sass/modules/_slice_affinity_content_page.scss */
+.slice_affinity_content_page .content_page_main .content_page_main_sidebar .content_page_main_sidebar_nav .group_nav_child a, .slice_affinity_content_page .content_page_main .content_page_main_sidebar .content_page_main_sidebar_nav .group_nav_sibling a, .slice_affinity_content_page .content_page_main .content_page_main_sidebar .content_page_main_sidebar_nav .group_nav_parent a, .slice_affinity_content_page .content_page_main .content_page_main_sidebar .content_page_main_sidebar_nav .group_nav_selected a {
+  display: block;
+  padding: 10px 15px;
+  -webkit-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  transition: all 500ms ease;
+  color: #4d4d4d;
+  font-size: 15px;
+  text-decoration: none;
+  margin-bottom: 1px;
+  float: left;
+  width: 100%;
+  background-color: #f5f5f5;
+}
+/* line 81, ../../../components/sass/modules/_slice_affinity_content_page.scss */
+.slice_affinity_content_page .content_page_main .content_page_main_sidebar .content_page_main_sidebar_nav .group_nav_child a:hover, .slice_affinity_content_page .content_page_main .content_page_main_sidebar .content_page_main_sidebar_nav .group_nav_sibling a:hover, .slice_affinity_content_page .content_page_main .content_page_main_sidebar .content_page_main_sidebar_nav .group_nav_parent a:hover, .slice_affinity_content_page .content_page_main .content_page_main_sidebar .content_page_main_sidebar_nav .group_nav_selected a:hover {
+  color: #2aabab;
+}
+/* line 91, ../../../components/sass/modules/_slice_affinity_content_page.scss */
+.slice_affinity_content_page .content_page_main .content_page_main_sidebar .content_page_main_sidebar_nav .group_nav_selected a {
+  color: #2aabab;
+}
+/* line 97, ../../../components/sass/modules/_slice_affinity_content_page.scss */
+.slice_affinity_content_page .content_page_main .content_page_main_sidebar .content_page_main_sidebar_nav .group_nav_selected .group_nav_child a {
+  color: #4d4d4d;
+  padding-left: 25px;
+}
+/* line 102, ../../../components/sass/modules/_slice_affinity_content_page.scss */
+.slice_affinity_content_page .content_page_main .content_page_main_sidebar .content_page_main_sidebar_nav .group_nav_selected .group_nav_child a:hover {
+  color: #2aabab;
+}
+/* line 110, ../../../components/sass/modules/_slice_affinity_content_page.scss */
+.slice_affinity_content_page .content_page_main .content_page_main_sidebar .content_page_main_sidebar_nav .group_nav_selected .group_nav_parent > div > a {
+  padding-left: 25px;
+}
+/* line 118, ../../../components/sass/modules/_slice_affinity_content_page.scss */
+.slice_affinity_content_page .content_page_main .content_page_main_sidebar .content_page_sidebar_button {
+  display: block;
+  margin: 25px 50px 30px;
+  padding: 10px 10px 12px 50px;
+  border: 2px solid #5ac5c5;
+  border-radius: 2px;
+  background-color: #5ac5c5;
+  background-image: url("../images/affinity-sidebar-icon.png");
+  background-position: 14px 50%;
+  background-size: auto 22px;
+  background-repeat: no-repeat;
+  -webkit-transition: border 500ms ease, background-color 500ms ease;
+  -o-transition: border 500ms ease, background-color 500ms ease;
+  transition: border 500ms ease, background-color 500ms ease;
+  color: white;
+  text-decoration: none;
+}
+/* line 135, ../../../components/sass/modules/_slice_affinity_content_page.scss */
+.slice_affinity_content_page .content_page_main .content_page_main_sidebar .content_page_sidebar_button:hover {
+  opacity: 0.7;
+}
+/* line 139, ../../../components/sass/modules/_slice_affinity_content_page.scss */
+.slice_affinity_content_page .content_page_main .content_page_main_sidebar .content_page_main_sidebar_image {
+  margin: 25px 50px 30px;
+}
+@media (min-width: 768px) {
+  /* line 150, ../../../components/sass/modules/_slice_affinity_content_page.scss */
+  .slice_affinity_content_page .content_page_main .content_page_main_content {
+    margin-bottom: 40px;
+  }
+  /* line 154, ../../../components/sass/modules/_slice_affinity_content_page.scss */
+  .slice_affinity_content_page .content_page_main .content_page_main_sidebar {
+    margin-top: 0;
+  }
+  /* line 159, ../../../components/sass/modules/_slice_affinity_content_page.scss */
+  .slice_affinity_content_page .content_page_main .content_page_main_sidebar .content_page_banner_image {
+    margin-top: 10px;
+  }
+  /* line 163, ../../../components/sass/modules/_slice_affinity_content_page.scss */
+  .slice_affinity_content_page .content_page_main .content_page_main_sidebar .content_page_main_sidebar_image, .slice_affinity_content_page .content_page_main .content_page_main_sidebar .content_page_sidebar_button {
+    margin: 25px 0;
+  }
+}

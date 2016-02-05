@@ -1,0 +1,86 @@
+// ======================================
+// slice affinity footerbar
+// ======================================
+
+.slice_affinity_footerbar {
+
+  background-color: $footerbar-background-color;
+
+  .footerbar {
+    font-size: 13px;
+    font-family: Lato, sans-serif;
+    text-align: center;
+    padding: 20px 0 20px;
+    line-height: 30px;
+
+    a {
+      display: inline-block;
+      -webkit-transition: all 500ms ease;
+      -o-transition: all 500ms ease;
+      transition: all 500ms ease;
+      text-decoration: none;
+      color: $footerbar-color;
+      &:hover {
+        color: #FFF
+      }
+
+      &#footer_mobile, &#footer_copyright, &#footer_tc, &#footer_privacy, #footer_help {
+        line-height: 16px
+      }
+
+      &#footer_mobile::after, &#footer_copyright::after, &#footer_tc::after, &#footer_privacy::after {
+        content: "";
+        padding-left: 4px;
+        margin-right: 4px
+      }
+
+      &.footer {
+        float: left;
+        width: 100%;
+        border: none;
+        text-indent: -9999px;
+        background-image: url('../images/affinity-churchinsight-logo.png');
+        background-size: 158px 28px;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-color: transparent;
+        height: 30px;
+        margin-bottom: 10px;
+
+        &.footer:hover {
+          background-image: url('../images/affinity-churchinsight-logo-hover.png');
+        }
+      }
+    }
+    span#footer_charity {
+      float: right;
+      width: 100%;
+      color: $footerbar-color;
+    }
+
+    @media only screen and (min-width: $breakpoint-md) {
+
+      padding: 25px 0 0;
+
+      a {
+
+        &.footer {
+          width: 25%;
+          margin-bottom: 25px;
+        }
+
+        &#footer_mobile::after, &#footer_copyright::after, &#footer_tc::after, &#footer_privacy::after {
+          content: "|";
+          padding-left: 10px;
+          margin-right: 10px;
+          color: $footerbar-color;
+        }
+
+      }
+
+      span#footer_charity {
+        width: 25%;
+      }
+    }
+  }
+}

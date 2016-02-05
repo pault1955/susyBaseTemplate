@@ -1,0 +1,33 @@
+.slice_affinity_4_graphic_blocks {
+
+  background-color: #eff1f0;
+  border-bottom: 1px solid #d3d3d3;
+
+  ul {
+    margin: 0 auto;
+    display: block;
+    list-style: none;
+    padding-left: 0;
+  }
+
+  li {
+    float: left;
+    display: inline-block;
+    margin-top: 18px;
+    margin-bottom: 18px;
+    // @include make-xs-column(6);
+    // @include make-md-column(3);
+
+    a {
+      -webkit-transition: all 0.3s ease-in-out;
+      -moz-transition: all 0.3s ease-in-out;
+      -ms-transition: all 0.3s ease-in-out;
+      -o-transition: all 0.3s ease-in-out;
+      transition: all 0.3s ease-in-out;
+
+      &:hover {
+        opacity: 0.7;
+      }
+    }
+  }
+}

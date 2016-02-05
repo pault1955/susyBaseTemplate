@@ -1,0 +1,102 @@
+// ======================================
+//  affinity text with background image
+// ======================================
+
+//  info header
+// ===================================
+
+.slice_affinity_text_image_bg {
+
+  padding-top: 8.5%;
+  background-image: url(/builds/development/images/affinity-text-image-bg.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+  background-attachment: scroll;
+  height: 410px;
+  overflow: hidden;
+
+  .icon-cup {
+    text-align: center;
+    margin-bottom: 20px;
+    & img {
+      max-width: 65px;
+    }
+  }
+  .text_image {
+
+    margin: 0 auto;
+    text-align: center;
+
+    .text_image_title {
+      color: $text_image_reverse_title-color;
+      font-size: $text_image_reverse_title-font-size;
+      font-family: $text_image_reverse_title-font-family;
+      line-height: $text_image_reverse_title-line-height;
+      margin-bottom: $text_image_reverse_title-margin-bottom;
+      font-weight: 600;
+    }
+    .text_image_text {
+      color: $text_image_reverse_text-color;
+      font-size: $text_image_reverse_text-font-size;
+      font-family: $text_image_reverse_text-font-family;
+      line-height: $text_image_reverse_text-line-height;
+      margin-bottom: $text_image_reverse_text-margin-bottom * 3;
+      font-weight:300;
+    }
+  }
+  @media (min-width: $breakpoint-sm) {
+
+    background-attachment: fixed;
+    padding-top: 70px;
+    height: 500px;
+
+    .icon-cup {
+      margin-bottom: 25px;
+      & img {
+        max-width: 70px;
+      }
+    }
+
+    .text_image {
+
+
+      .text_image_text {
+        line-height: $text_image_reverse_text-line-height * 1.3;
+      }
+    }
+  }
+
+  @media (min-width: $breakpoint-md) {
+
+    padding-top: 81px;
+    height: 536px;
+    .text_image {
+      .text_image_title {
+        font-size: $text_image_reverse_title-font-size * 1.5;
+        margin-bottom: $text_image_reverse_title-margin-bottom * 2;
+        line-height: $text_image_reverse_title-line-height * 1.5;
+      }
+      .text_image_text {
+        font-size: $text_image_reverse_text-font-size * 1.2;
+        line-height: $text_image_reverse_text-line-height * 1.4;
+      }
+
+    }
+  }
+
+  @media (min-width: $breakpoint-lg) {
+
+    padding-top: 119px;
+
+    .text_image {
+      .text_image_title {
+      }
+
+      .text_image_text {
+        line-height: $text_image_reverse_text-line-height * 1.5;
+      }
+
+    }
+
+  }
+}

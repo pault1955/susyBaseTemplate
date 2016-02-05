@@ -16,5 +16,6 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="compass-library" level="project" />
+    <orderEntry type="library" name="susyBaseTemplate node_modules" level="project" />
   </component>
 </module>
