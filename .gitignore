@@ -2,3 +2,6 @@
 .sass-cache
 .tmp
 node_modules
+components/sass/images
+builds/development/images
+builds/production

@@ -1,199 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7ec98e85-9595-4402-a3f2-aa8d1a8ed9a9" name="Default" comment="Still setting up with affinity assests">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/builds/development/images/Hero_image_London.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/builds/development/images/Web-Cafe-Front-Image.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/builds/development/images/affinity-01-advert-slide.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/builds/development/images/affinity-01-slide.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/builds/development/images/affinity-02-advert-slide.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/builds/development/images/affinity-02-slide.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/builds/development/images/affinity-03-advert-slide.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/builds/development/images/affinity-03-slide.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/builds/development/images/affinity-4-info-graphic.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/builds/development/images/affinity-advert-2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/builds/development/images/affinity-advert.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/builds/development/images/affinity-arrow-left-dark.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/builds/development/images/affinity-arrow-left.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/builds/development/images/affinity-arrow-right-dark.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/builds/development/images/affinity-arrow-right.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/builds/development/images/affinity-churchinsight-logo-hover.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/builds/development/images/affinity-churchinsight-logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/builds/development/images/affinity-circle-01.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/builds/development/images/affinity-circle-02.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/builds/development/images/affinity-circle-03.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/builds/development/images/affinity-circle-04.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/builds/development/images/affinity-community-01.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/builds/development/images/affinity-community-02.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/builds/development/images/affinity-community-03.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/builds/development/images/affinity-community-04.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/builds/development/images/affinity-community-05.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/builds/development/images/affinity-community-06.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/builds/development/images/affinity-content-banner.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/builds/development/images/affinity-cup.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/builds/development/images/affinity-events-slide-01.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/builds/development/images/affinity-events-slide-02.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/builds/development/images/affinity-events-slide-03.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/builds/development/images/affinity-icon-facebook.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/builds/development/images/affinity-icon-home.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/builds/development/images/affinity-icon-twitter.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/builds/development/images/affinity-icon-youtube.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/builds/development/images/affinity-latest-news-01.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/builds/development/images/affinity-latest-news-02.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/builds/development/images/affinity-latest-news-03.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/builds/development/images/affinity-location-01.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/builds/development/images/affinity-location-01.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/builds/development/images/affinity-location-02.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/builds/development/images/affinity-location-03.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/builds/development/images/affinity-logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/builds/development/images/affinity-recent-media-01.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/builds/development/images/affinity-recent-media-02.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/builds/development/images/affinity-recent-media-03.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/builds/development/images/affinity-sidebar-image.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/builds/development/images/affinity-slideshow-advert-bg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/builds/development/images/affinity-tab-arrows.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/builds/development/images/affinity-text-image-bg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/builds/development/images/block-events.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/builds/development/images/block-media.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/builds/development/images/block-online-bible.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/builds/development/images/block-small-groups.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/builds/development/images/btn-search.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/builds/development/images/footer-3-icon-facebook.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/builds/development/images/footer-3-icon-rss.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/builds/development/images/footer-3-icon-twitter.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/builds/development/images/footer-3-icon-youtube.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/builds/development/images/oslider-arrow-left.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/builds/development/images/oslider-arrow-right.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/builds/development/images/slideshow_bg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/sass/images/Hero_image_London.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/sass/images/Web-Cafe-Front-Image.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/sass/images/affinity-01-advert-slide.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/sass/images/affinity-01-slide.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/sass/images/affinity-02-advert-slide.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/sass/images/affinity-02-slide.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/sass/images/affinity-03-advert-slide.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/sass/images/affinity-03-slide.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/sass/images/affinity-4-info-graphic.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/sass/images/affinity-advert-2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/sass/images/affinity-advert.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/sass/images/affinity-arrow-left-dark.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/sass/images/affinity-arrow-left.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/sass/images/affinity-arrow-right-dark.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/sass/images/affinity-arrow-right.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/sass/images/affinity-churchinsight-logo-hover.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/sass/images/affinity-churchinsight-logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/sass/images/affinity-circle-01.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/sass/images/affinity-circle-02.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/sass/images/affinity-circle-03.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/sass/images/affinity-circle-04.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/sass/images/affinity-community-01.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/sass/images/affinity-community-02.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/sass/images/affinity-community-03.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/sass/images/affinity-community-04.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/sass/images/affinity-community-05.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/sass/images/affinity-community-06.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/sass/images/affinity-content-banner.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/sass/images/affinity-cup.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/sass/images/affinity-events-slide-01.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/sass/images/affinity-events-slide-02.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/sass/images/affinity-events-slide-03.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/sass/images/affinity-icon-facebook.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/sass/images/affinity-icon-home.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/sass/images/affinity-icon-twitter.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/sass/images/affinity-icon-youtube.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/sass/images/affinity-latest-news-01.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/sass/images/affinity-latest-news-02.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/sass/images/affinity-latest-news-03.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/sass/images/affinity-location-01.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/sass/images/affinity-location-01.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/sass/images/affinity-location-02.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/sass/images/affinity-location-03.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/sass/images/affinity-logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/sass/images/affinity-recent-media-01.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/sass/images/affinity-recent-media-02.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/sass/images/affinity-recent-media-03.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/sass/images/affinity-sidebar-image.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/sass/images/affinity-slideshow-advert-bg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/sass/images/affinity-tab-arrows.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/sass/images/affinity-text-image-bg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/sass/images/block-events.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/sass/images/block-media.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/sass/images/block-online-bible.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/sass/images/block-small-groups.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/sass/images/btn-search.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/sass/images/footer-3-icon-facebook.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/sass/images/footer-3-icon-rss.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/sass/images/footer-3-icon-twitter.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/sass/images/footer-3-icon-youtube.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/sass/images/oslider-arrow-left.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/sass/images/oslider-arrow-right.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/sass/images/slideshow_bg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/susyBaseTemplate_node_modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.jsbeautifyrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.jshintrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/builds/development/css/jquery.bxslider.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/builds/development/css/slicknav.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/builds/development/css/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/sass/_normalize.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/sass/affinity_system.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/sass/modules/_affinity_base.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/sass/modules/_affinity_system_styles.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/sass/modules/_slice_affinity_3_info_columns.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/sass/modules/_slice_affinity_3_locations.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/sass/modules/_slice_affinity_4_AL.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/sass/modules/_slice_affinity_4_graphic_blocks.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/sass/modules/_slice_affinity_4_info_columns.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/sass/modules/_slice_affinity_community.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/sass/modules/_slice_affinity_community_flex.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/sass/modules/_slice_affinity_content_page.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/sass/modules/_slice_affinity_footer.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/sass/modules/_slice_affinity_footer_3.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/sass/modules/_slice_affinity_footerbar.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/sass/modules/_slice_affinity_form.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/sass/modules/_slice_affinity_get_in_touch.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/sass/modules/_slice_affinity_header.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/sass/modules/_slice_affinity_header_statusbar_search.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/sass/modules/_slice_affinity_header_statusbar_search_oldslicknav.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/sass/modules/_slice_affinity_latest_news.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/sass/modules/_slice_affinity_latest_news_flex.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/sass/modules/_slice_affinity_login_box.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/sass/modules/_slice_affinity_map.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/sass/modules/_slice_affinity_mini_slideshow.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/sass/modules/_slice_affinity_recent_media.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/sass/modules/_slice_affinity_recent_media_flex.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/sass/modules/_slice_affinity_slideshow.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/sass/modules/_slice_affinity_slideshow_advert.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/sass/modules/_slice_affinity_slideshow_bg.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/sass/modules/_slice_affinity_slideshow_full_width.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/sass/modules/_slice_affinity_slideshow_oslider.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/sass/modules/_slice_affinity_text_image_bg.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/sass/modules/_slice_affinity_video.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/scripts/jquery.bxslider.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/scripts/jquery.fitvids.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/scripts/jquery.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/scripts/jquery.slicknav.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/scripts/modernizr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/scripts/oslider.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/sass/modules/_attractions.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/sass/modules/_events.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/sass/modules/_footer.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/sass/modules/_hotelinfo.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/sass/modules/_intro.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/sass/modules/_nav.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/sass/modules/_rooms.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/sass/modules/_welcome.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/scripts/TweenMax.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/scripts/jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/scripts/jquery.scrollmagic.min.js" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/builds/development/js/script.js" afterPath="$PROJECT_DIR$/builds/development/js/plugins.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/susyTemplate.iml" afterPath="$PROJECT_DIR$/.idea/susyTemplate.iml" />
+    <list default="true" id="7ec98e85-9595-4402-a3f2-aa8d1a8ed9a9" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/builds/development/index.html" afterPath="$PROJECT_DIR$/builds/development/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/builds/development/js/script.js" afterPath="$PROJECT_DIR$/builds/development/js/script.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/sass/_variables.scss" afterPath="$PROJECT_DIR$/components/sass/_variables.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/sass/style.scss" afterPath="$PROJECT_DIR$/components/sass/style.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
     </list>
     <ignored path="susyTemplate.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -214,16 +24,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="gulpfile.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gulpfile.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="script.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/builds/development/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -324,7 +124,6 @@
       <list>
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/components/sass/_layout.scss" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/.jsbeautifyrc" />
         <option value="$PROJECT_DIR$/.jshintrc" />
         <option value="$PROJECT_DIR$/components/sass/modules/_slice_affinity_4_AL.scss" />
@@ -342,6 +141,7 @@
         <option value="$PROJECT_DIR$/components/sass/modules/_slice_affinity_text_image_bg.scss" />
         <option value="$PROJECT_DIR$/components/sass/modules/_slice_affinity_slideshow_oslider.scss" />
         <option value="$PROJECT_DIR$/components/sass/modules/_affinity_system_styles.scss" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -416,57 +216,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="susyTemplate" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="susyBaseTemplate" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sass" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="susyTemplate" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="susyBaseTemplate" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="builds" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="susyTemplate" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="susyBaseTemplate" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="builds" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="development" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -566,7 +316,13 @@
       <option name="project" value="LOCAL" />
       <updated>1454668850517</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Still setting up with affinity assests">
+      <created>1454670804477</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1454670804477</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -576,8 +332,8 @@
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3362712" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3280543" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3280543" sideWeight="0.4976271" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3280543" sideWeight="0.50237286" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33031675" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3280543" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -794,13 +550,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.10619469">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/components/scripts/script.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1003,6 +752,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="6859" column="12" selection-start-line="6859" selection-start-column="12" selection-end-line="6859" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.1590106">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
           <folding />
         </state>
       </provider>
