@@ -27,6 +27,8 @@ $(document).ready(function () {
     }
   });
 
+  /* mobile menu */
+
   $('.root_menu').slicknav({
     prependTo: '#mobile_nav',
     allowParentLinks: true,
