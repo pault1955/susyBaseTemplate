@@ -1,19 +1,31 @@
-@import url(http://fonts.googleapis.com/css?family=Exo+2:400,200,600,800);
-
 @include border-box-sizing;
 
 $susy: (
-  columns: 12,
-  container: 1170px,
-  gutters: 1/4,
-  gutter-position: inside
+        columns: 12,
+        container: 1170px,
+        gutters: 40px/98px,
+        gutter-position: split,
+        output: overlay,
+        global-box-sizing: border-box,
+        debug: (
+                image: show-columns,
+                toggle: top right,
+                output: background
+        )
 );
+
+
 
 $breakpoint_ti: 467px;
 $breakpoint-sm: 768px;
 $breakpoint-md: 992px;
 $breakpoint-lg: 1200px;
 
+
+$default_font-family : 'Open Sans', Arial, sans-serif;
+$default_font-color  : #4d4d4d;
+$default_font-size   : 14px;
+$default_line-height : 18px;
 
 //Add Color Palette
 $blue       : #063642;

@@ -1,20 +1,273 @@
+// ======================================
+//  site wide
+// ======================================
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700);
+
+
 body {
-  font: $mainFont;
-  background: $backgroundColor;
-  color: $typeDefault;
+  color: $default_font-color;
+  font-family: $default_font-family;
+  font-size: $default_font-size;
+  line-height: $default_line-height;
+  position: absolute;
+  width: 100%;
+  height: 100%;
 }
 
-#{headings()} {
- font: $headFont;
- color: $headColor;
- font-weight: $bold;
+.container {
+ @include container();
+ @include show-grid(12);
 }
 
-strong {
-  font-weight: $bold;
+.slideSpan {
+ @include span(12);
 }
+
+.square {
+  @include span(1);
+  background-color: #0d3349;
+  height: 100px;
+  margin-bottom: gutter();
+}
+
+.square3 {
+  @include span(12);
+  background-color: #0d3349;
+  height: 100px;
+  margin-bottom: gutter();
+
+  @include susy-breakpoint($breakpoint-sm, 12) {
+    @include span(6);
+  }
+
+  @include susy-breakpoint($breakpoint-md, 12) {
+    @include span(3);
+  }
+}
+
+.square4 {
+  @include span(4);
+  background-color: #0d3349;
+  height: 100px;
+  margin-bottom: gutter();
+}
+
+.square6 {
+  @include span(6);
+  background-color: #0d3349;
+  height: 100px;
+  margin-bottom: gutter();
+}
+
+
+.footer {
+ // @include show-grid(24);
+}
+
+img {
+  width: 100%;
+}
+
+// add float none to bootstrap center-block class
+
+.center-block {
+  float: none;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Open Sans Bold', sans-serif;
+  margin: 0.1em 0;
+}
+
+
+h1 {
+  font-size: 48px;
+  line-height: 50px;
+  margin-top: 0;
+}
+
+h2 {
+  font-size: 42px;
+  line-height: 46px;
+}
+
+h3 {
+  font-size: 36px;
+  line-height: 42px;
+}
+
+h4 {
+  font-size: 24px;
+  line-height: 28px;
+}
+
+h5 {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+}
+
+h6 {
+  font-size: 18px;
+  line-height: 28px;
+}
+
 
 p {
-  font-weight: $thin;
-  padding-bottom: 10px;
+
 }
+
+blockquote {
+  font-size: 14px;
+}
+
+a {
+  color: $affinity_link-color;
+
+  &:hover {
+    color: $affinity_link-color--hover;
+    text-decoration: none;
+  }
+}
+
+/* remove ios shadow */
+
+input, textarea {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+
+.sitebutton {
+  display: inline-block;
+  margin-top: 10px;
+  margin-right: 5px;
+  padding: 9px 15px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  -webkit-transition: background-color 500ms ease;
+  transition: background-color 500ms ease;
+  font-size: $sitebutton_button-font-size;
+  text-align: center;
+  letter-spacing: 2px;
+  text-decoration: none;
+  text-transform: uppercase;
+  border: $sitebutton_button-border;
+  background-color: $sitebutton_button-background-color;
+  color: $sitebutton_button-color;
+
+  &:hover {
+    color: $sitebutton_button-color--hover;
+    border: $sitebutton_button-border--hover;
+    background-color: $sitebutton_button-background-color--hover;
+  }
+}
+.preview_overlay_content img {
+  width: 20px;
+}
+img.preview_show {
+  width: 20px;
+}
+
+/* popup windows */
+
+.popupwindow_title {
+  color: $system_calendar_popup_window-color;
+}
+
+/* view all forums  icon */
+.forums_boxout_contents a img {
+  width: 20px;
+  margin-right: 8px;
+}
+
+/* directory search icon */
+tr.gridheader a img {
+  width: 25px;
+}
+
+/* media list icons */
+
+.media_box_cell img {
+  width: 18px;
+}
+.MediaListRSS img {
+  width: 40px;
+}
+/* signup sheet */
+table.signup tr td, td.signup0 {
+
+  line-height: 0px;
+  font-size: 0px;
+  border-collapse: separate;
+}
+
+table.signup tr td img {
+  height: 8px !important;
+}
+/* form styling */
+input {
+  -webkit-appearance: none;
+}
+input[type="checkbox"] + label, input[type="radio"] +  label {
+  margin-left:10px;
+}
+
+@media (min-width: $breakpoint-sm) {
+
+  body {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+
+  h1 {
+    font-size: 48px;
+    line-height: 50px;
+    margin-top: 0;
+  }
+
+  h2 {
+    font-size: 42px;
+    line-height: 46px;
+  }
+
+  h3 {
+    font-size: 36px;
+    line-height: 42px;
+  }
+
+  h4 {
+    font-size: 24px;
+    line-height: 28px;
+  }
+
+  h5 {
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 700;
+  }
+
+  h6 {
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+
+  p {
+    margin-bottom: 24px;
+  }
+
+  blockquote {
+    font-size: 16px;
+  }
+
+}
+
+// hide author info on articles due to homepage community article list
+.content_page_main .ArticleBody .author {
+  display: none;}

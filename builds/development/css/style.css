@@ -1,4 +1,3 @@
-@import url(http://fonts.googleapis.com/css?family=Exo+2:400,200,600,800);
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700);
 /* line 5, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
@@ -350,65 +349,126 @@ input[type="checkbox"], input[type="radio"] {
   box-sizing: border-box;
 }
 
-/* line 1, ../../../components/sass/_base.scss */
-body {
-  font: 200 1em/1.5em "Exo 2", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  background: #FFFFFF;
-  color: #000000;
-}
-
 /* line 7, ../../../components/sass/_base.scss */
-h1, h2, h3, h4, h5, h6 {
-  font: 200 1.5em/1.5em "Exo 2", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #0f83a0;
-  font-weight: 600;
-}
-
-/* line 13, ../../../components/sass/_base.scss */
-strong {
-  font-weight: 600;
-}
-
-/* line 17, ../../../components/sass/_base.scss */
-p {
-  font-weight: 200;
-  padding-bottom: 10px;
-}
-
-/* line 1, ../../../components/sass/_layout.scss */
 body {
+  color: #4d4d4d;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 18px;
   position: absolute;
   width: 100%;
   height: 100%;
 }
 
-/* line 7, ../../../components/sass/modules/_affinity_base.scss */
-body {
-  color: #4d4d4d;
-  font-family: "Open Sans", sans-serif;
-  font-size: 14px;
-  line-height: 18px;
-}
-
-/* line 14, ../../../components/sass/modules/_affinity_base.scss */
+/* line 17, ../../../components/sass/_base.scss */
 .container {
-  margin-right: auto;
+  max-width: 1170px;
   margin-left: auto;
-  max-width: 1350px;
+  margin-right: auto;
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuMCIgeTE9IjAuNSIgeDI9IjEuMCIgeTI9IjAuNSI+PHN0b3Agb2Zmc2V0PSIxNC40OTI3NSUiIHN0b3AtY29sb3I9IiMwMDAwMDAiIHN0b3Atb3BhY2l0eT0iMC4wIi8+PHN0b3Agb2Zmc2V0PSIxNC40OTI3NSUiIHN0b3AtY29sb3I9IiM2NjY2ZmYiIHN0b3Atb3BhY2l0eT0iMC4yNSIvPjxzdG9wIG9mZnNldD0iODUuNTA3MjUlIiBzdG9wLWNvbG9yPSIjYjNiM2ZmIiBzdG9wLW9wYWNpdHk9IjAuMjUiLz48c3RvcCBvZmZzZXQ9Ijg1LjUwNzI1JSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIwLjAiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyYWQpIiAvPjwvc3ZnPiA=');
+  background-size: 100%;
+  background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(14.49275%, rgba(0, 0, 0, 0)), color-stop(14.49275%, rgba(102, 102, 255, 0.25)), color-stop(85.50725%, rgba(179, 179, 255, 0.25)), color-stop(85.50725%, rgba(0, 0, 0, 0)));
+  background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 14.49275%, rgba(102, 102, 255, 0.25) 14.49275%, rgba(179, 179, 255, 0.25) 85.50725%, rgba(0, 0, 0, 0) 85.50725%);
+  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 14.49275%, rgba(102, 102, 255, 0.25) 14.49275%, rgba(179, 179, 255, 0.25) 85.50725%, rgba(0, 0, 0, 0) 85.50725%);
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 14.49275%, rgba(102, 102, 255, 0.25) 14.49275%, rgba(179, 179, 255, 0.25) 85.50725%, rgba(0, 0, 0, 0) 85.50725%);
+  background-size: 8.33333%;
+  background-origin: content-box;
+  background-clip: content-box;
+  background-position: left top;
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuMCIgeTE9IjAuNSIgeDI9IjEuMCIgeTI9IjAuNSI+PHN0b3Agb2Zmc2V0PSIxNC40OTI3NSUiIHN0b3AtY29sb3I9IiMwMDAwMDAiIHN0b3Atb3BhY2l0eT0iMC4wIi8+PHN0b3Agb2Zmc2V0PSIxNC40OTI3NSUiIHN0b3AtY29sb3I9IiM2NjY2ZmYiIHN0b3Atb3BhY2l0eT0iMC4yNSIvPjxzdG9wIG9mZnNldD0iODUuNTA3MjUlIiBzdG9wLWNvbG9yPSIjYjNiM2ZmIiBzdG9wLW9wYWNpdHk9IjAuMjUiLz48c3RvcCBvZmZzZXQ9Ijg1LjUwNzI1JSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIwLjAiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyYWQpIiAvPjwvc3ZnPiA=');
+  background-size: 100%;
+  background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(14.49275%, rgba(0, 0, 0, 0)), color-stop(14.49275%, rgba(102, 102, 255, 0.25)), color-stop(85.50725%, rgba(179, 179, 255, 0.25)), color-stop(85.50725%, rgba(0, 0, 0, 0)));
+  background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 14.49275%, rgba(102, 102, 255, 0.25) 14.49275%, rgba(179, 179, 255, 0.25) 85.50725%, rgba(0, 0, 0, 0) 85.50725%);
+  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 14.49275%, rgba(102, 102, 255, 0.25) 14.49275%, rgba(179, 179, 255, 0.25) 85.50725%, rgba(0, 0, 0, 0) 85.50725%);
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 14.49275%, rgba(102, 102, 255, 0.25) 14.49275%, rgba(179, 179, 255, 0.25) 85.50725%, rgba(0, 0, 0, 0) 85.50725%);
+  background-size: 8.33333%;
+  background-origin: content-box;
+  background-clip: content-box;
+  background-position: left top;
+}
+/* line 12, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/susy-2.2.12/sass/susy/output/support/_clearfix.scss */
+.container:after {
+  content: " ";
+  display: block;
+  clear: both;
 }
 
-@media (min-width: 1200px) {
-  /* line 21, ../../../components/sass/modules/_affinity_base.scss */
-  .container {
-    width: 1170px;
+/* line 22, ../../../components/sass/_base.scss */
+.slideSpan {
+  width: 97.58454%;
+  float: left;
+  margin-left: 1.20773%;
+  margin-right: 1.20773%;
+}
+
+/* line 26, ../../../components/sass/_base.scss */
+.square {
+  width: 5.91787%;
+  float: left;
+  margin-left: 1.20773%;
+  margin-right: 1.20773%;
+  background-color: #0d3349;
+  height: 100px;
+  margin-bottom: 1.20773%;
+}
+
+/* line 33, ../../../components/sass/_base.scss */
+.square3 {
+  width: 97.58454%;
+  float: left;
+  margin-left: 1.20773%;
+  margin-right: 1.20773%;
+  background-color: #0d3349;
+  height: 100px;
+  margin-bottom: 1.20773%;
+}
+@media (min-width: 768px) {
+  /* line 33, ../../../components/sass/_base.scss */
+  .square3 {
+    width: 47.58454%;
+    float: left;
+    margin-left: 1.20773%;
+    margin-right: 1.20773%;
   }
 }
-/* line 26, ../../../components/sass/modules/_affinity_base.scss */
+@media (min-width: 992px) {
+  /* line 33, ../../../components/sass/_base.scss */
+  .square3 {
+    width: 22.58454%;
+    float: left;
+    margin-left: 1.20773%;
+    margin-right: 1.20773%;
+  }
+}
+
+/* line 48, ../../../components/sass/_base.scss */
+.square4 {
+  width: 30.91787%;
+  float: left;
+  margin-left: 1.20773%;
+  margin-right: 1.20773%;
+  background-color: #0d3349;
+  height: 100px;
+  margin-bottom: 1.20773%;
+}
+
+/* line 55, ../../../components/sass/_base.scss */
+.square6 {
+  width: 47.58454%;
+  float: left;
+  margin-left: 1.20773%;
+  margin-right: 1.20773%;
+  background-color: #0d3349;
+  height: 100px;
+  margin-bottom: 1.20773%;
+}
+
+/* line 67, ../../../components/sass/_base.scss */
 img {
   width: 100%;
 }
 
-/* line 32, ../../../components/sass/modules/_affinity_base.scss */
+/* line 73, ../../../components/sass/_base.scss */
 .center-block {
   float: none;
   display: block;
@@ -416,74 +476,74 @@ img {
   margin-right: auto;
 }
 
-/* line 38, ../../../components/sass/modules/_affinity_base.scss */
+/* line 79, ../../../components/sass/_base.scss */
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Open Sans Bold', sans-serif;
   margin: 0.1em 0;
 }
 
-/* line 44, ../../../components/sass/modules/_affinity_base.scss */
+/* line 85, ../../../components/sass/_base.scss */
 h1 {
   font-size: 48px;
   line-height: 50px;
   margin-top: 0;
 }
 
-/* line 50, ../../../components/sass/modules/_affinity_base.scss */
+/* line 91, ../../../components/sass/_base.scss */
 h2 {
   font-size: 42px;
   line-height: 46px;
 }
 
-/* line 55, ../../../components/sass/modules/_affinity_base.scss */
+/* line 96, ../../../components/sass/_base.scss */
 h3 {
   font-size: 36px;
   line-height: 42px;
 }
 
-/* line 60, ../../../components/sass/modules/_affinity_base.scss */
+/* line 101, ../../../components/sass/_base.scss */
 h4 {
   font-size: 24px;
   line-height: 28px;
 }
 
-/* line 65, ../../../components/sass/modules/_affinity_base.scss */
+/* line 106, ../../../components/sass/_base.scss */
 h5 {
   font-size: 20px;
   line-height: 24px;
   font-weight: 700;
 }
 
-/* line 71, ../../../components/sass/modules/_affinity_base.scss */
+/* line 112, ../../../components/sass/_base.scss */
 h6 {
   font-size: 18px;
   line-height: 28px;
 }
 
-/* line 81, ../../../components/sass/modules/_affinity_base.scss */
+/* line 122, ../../../components/sass/_base.scss */
 blockquote {
   font-size: 14px;
 }
 
-/* line 85, ../../../components/sass/modules/_affinity_base.scss */
+/* line 126, ../../../components/sass/_base.scss */
 a {
   color: #2aabab;
 }
-/* line 88, ../../../components/sass/modules/_affinity_base.scss */
+/* line 129, ../../../components/sass/_base.scss */
 a:hover {
   color: #5ac5c5;
   text-decoration: none;
 }
 
 /* remove ios shadow */
-/* line 96, ../../../components/sass/modules/_affinity_base.scss */
+/* line 137, ../../../components/sass/_base.scss */
 input, textarea {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
 }
 
-/* line 103, ../../../components/sass/modules/_affinity_base.scss */
+/* line 144, ../../../components/sass/_base.scss */
 .sitebutton {
   display: inline-block;
   margin-top: 10px;
@@ -503,133 +563,133 @@ input, textarea {
   background-color: transparent;
   color: #4d4d4d;
 }
-/* line 122, ../../../components/sass/modules/_affinity_base.scss */
+/* line 163, ../../../components/sass/_base.scss */
 .sitebutton:hover {
   color: #fff;
   border: 1px solid #5ac5c5;
   background-color: #5ac5c5;
 }
 
-/* line 128, ../../../components/sass/modules/_affinity_base.scss */
+/* line 169, ../../../components/sass/_base.scss */
 .preview_overlay_content img {
   width: 20px;
 }
 
-/* line 131, ../../../components/sass/modules/_affinity_base.scss */
+/* line 172, ../../../components/sass/_base.scss */
 img.preview_show {
   width: 20px;
 }
 
 /* popup windows */
-/* line 137, ../../../components/sass/modules/_affinity_base.scss */
+/* line 178, ../../../components/sass/_base.scss */
 .popupwindow_title {
   color: #4d4d4d;
 }
 
 /* view all forums  icon */
-/* line 142, ../../../components/sass/modules/_affinity_base.scss */
+/* line 183, ../../../components/sass/_base.scss */
 .forums_boxout_contents a img {
   width: 20px;
   margin-right: 8px;
 }
 
 /* directory search icon */
-/* line 148, ../../../components/sass/modules/_affinity_base.scss */
+/* line 189, ../../../components/sass/_base.scss */
 tr.gridheader a img {
   width: 25px;
 }
 
 /* media list icons */
-/* line 154, ../../../components/sass/modules/_affinity_base.scss */
+/* line 195, ../../../components/sass/_base.scss */
 .media_box_cell img {
   width: 18px;
 }
 
-/* line 157, ../../../components/sass/modules/_affinity_base.scss */
+/* line 198, ../../../components/sass/_base.scss */
 .MediaListRSS img {
   width: 40px;
 }
 
 /* signup sheet */
-/* line 161, ../../../components/sass/modules/_affinity_base.scss */
+/* line 202, ../../../components/sass/_base.scss */
 table.signup tr td, td.signup0 {
   line-height: 0px;
   font-size: 0px;
   border-collapse: separate;
 }
 
-/* line 168, ../../../components/sass/modules/_affinity_base.scss */
+/* line 209, ../../../components/sass/_base.scss */
 table.signup tr td img {
   height: 8px !important;
 }
 
 /* form styling */
-/* line 172, ../../../components/sass/modules/_affinity_base.scss */
+/* line 213, ../../../components/sass/_base.scss */
 input {
   -webkit-appearance: none;
 }
 
-/* line 175, ../../../components/sass/modules/_affinity_base.scss */
+/* line 216, ../../../components/sass/_base.scss */
 input[type="checkbox"] + label, input[type="radio"] + label {
   margin-left: 10px;
 }
 
 @media (min-width: 768px) {
-  /* line 181, ../../../components/sass/modules/_affinity_base.scss */
+  /* line 222, ../../../components/sass/_base.scss */
   body {
     font-size: 16px;
     line-height: 24px;
   }
 
-  /* line 187, ../../../components/sass/modules/_affinity_base.scss */
+  /* line 228, ../../../components/sass/_base.scss */
   h1 {
     font-size: 48px;
     line-height: 50px;
     margin-top: 0;
   }
 
-  /* line 193, ../../../components/sass/modules/_affinity_base.scss */
+  /* line 234, ../../../components/sass/_base.scss */
   h2 {
     font-size: 42px;
     line-height: 46px;
   }
 
-  /* line 198, ../../../components/sass/modules/_affinity_base.scss */
+  /* line 239, ../../../components/sass/_base.scss */
   h3 {
     font-size: 36px;
     line-height: 42px;
   }
 
-  /* line 203, ../../../components/sass/modules/_affinity_base.scss */
+  /* line 244, ../../../components/sass/_base.scss */
   h4 {
     font-size: 24px;
     line-height: 28px;
   }
 
-  /* line 208, ../../../components/sass/modules/_affinity_base.scss */
+  /* line 249, ../../../components/sass/_base.scss */
   h5 {
     font-size: 20px;
     line-height: 24px;
     font-weight: 700;
   }
 
-  /* line 214, ../../../components/sass/modules/_affinity_base.scss */
+  /* line 255, ../../../components/sass/_base.scss */
   h6 {
     font-size: 18px;
     line-height: 28px;
   }
 
-  /* line 220, ../../../components/sass/modules/_affinity_base.scss */
+  /* line 261, ../../../components/sass/_base.scss */
   p {
     margin-bottom: 24px;
   }
 
-  /* line 224, ../../../components/sass/modules/_affinity_base.scss */
+  /* line 265, ../../../components/sass/_base.scss */
   blockquote {
     font-size: 16px;
   }
 }
-/* line 231, ../../../components/sass/modules/_affinity_base.scss */
+/* line 272, ../../../components/sass/_base.scss */
 .content_page_main .ArticleBody .author {
   display: none;
 }
@@ -1231,34 +1291,34 @@ input[type="checkbox"] + label, input[type="radio"] + label {
   }
   /* line 495, ../../../components/sass/modules/_slice_affinity_header_statusbar_search.scss */
   .slice_affinity_header_statusbar_search .root_menu {
-    padding-left: 0;
-    margin: 0 auto;
-    width: 820px;
+    margin-left: 17.8744%;
+    margin-right: 17.8744%;
   }
-  /* line 500, ../../../components/sass/modules/_slice_affinity_header_statusbar_search.scss */
+  /* line 22, ../../../components/sass/_mixins.scss */
+  .slice_affinity_header_statusbar_search .root_menu:before, .slice_affinity_header_statusbar_search .root_menu:after {
+    content: '';
+    display: table;
+  }
+  /* line 27, ../../../components/sass/_mixins.scss */
+  .slice_affinity_header_statusbar_search .root_menu:after {
+    clear: both;
+  }
+  /* line 501, ../../../components/sass/modules/_slice_affinity_header_statusbar_search.scss */
   .slice_affinity_header_statusbar_search .root_menu > li > a {
     padding: 9px 10px;
   }
 }
 @media only screen and (min-width: 1200px) {
-  /* line 508, ../../../components/sass/modules/_slice_affinity_header_statusbar_search.scss */
+  /* line 509, ../../../components/sass/modules/_slice_affinity_header_statusbar_search.scss */
   .slice_affinity_header_statusbar_search nav a {
     font-size: 16.8px;
   }
-  /* line 512, ../../../components/sass/modules/_slice_affinity_header_statusbar_search.scss */
+  /* line 513, ../../../components/sass/modules/_slice_affinity_header_statusbar_search.scss */
   .slice_affinity_header_statusbar_search .root_menu > li ul a {
     font-size: 14px;
   }
 }
 
-/* line 7, ../../../components/sass/modules/_slice_affinity_slideshow.scss */
-.slice_affinity_slideshow .bannerSlides {
-  margin-top: 0;
-}
-/* line 10, ../../../components/sass/modules/_slice_affinity_slideshow.scss */
-.slice_affinity_slideshow .bannerSlides .bx-wrapper {
-  max-width: 1280px !important;
-}
 /* line 14, ../../../components/sass/modules/_slice_affinity_slideshow.scss */
 .slice_affinity_slideshow .bannerSlides .gallery_ul {
   display: none;
@@ -1280,10 +1340,6 @@ input[type="checkbox"] + label, input[type="radio"] + label {
   -ms-transform: translatez(0);
   -o-transform: translatez(0);
   transform: translatez(0);
-}
-/* line 35, ../../../components/sass/modules/_slice_affinity_slideshow.scss */
-.slice_affinity_slideshow .bannerSlides .gallery_ul {
-  padding: 0;
 }
 /* line 39, ../../../components/sass/modules/_slice_affinity_slideshow.scss */
 .slice_affinity_slideshow .bx-controls.bx-has-pager {
@@ -2420,7 +2476,7 @@ input[type="checkbox"] + label, input[type="radio"] + label {
 /* line 8, ../../../components/sass/modules/_slice_affinity_text_image_bg.scss */
 .slice_affinity_text_image_bg {
   padding-top: 8.5%;
-  background-image: url(../images/affinity-text-image-bg.jpg);
+  background-image: url(/builds/development/images/affinity-text-image-bg.jpg);
   background-size: cover;
   background-position: 50% 50%;
   background-attachment: scroll;
