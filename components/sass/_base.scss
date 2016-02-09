@@ -3,7 +3,6 @@
 // ======================================
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700);
 
-
 body {
   color: $default_font-color;
   font-family: $default_font-family;
@@ -19,63 +18,11 @@ body {
  @include show-grid(12);
 }
 
-.slideSpan {
- @include span(12);
-}
-
-.square {
-  @include span(1);
-  background-color: #0d3349;
-  height: 100px;
-  margin-bottom: gutter();
-}
-
-.square3 {
-  @include span(12);
-  background-color: #0d3349;
-  height: 100px;
-  margin-bottom: gutter();
-
-  @include susy-breakpoint($breakpoint-sm, 12) {
-    @include span(6);
-  }
-
-  @include susy-breakpoint($breakpoint-md, 12) {
-    @include span(3);
-  }
-}
-
-.square4 {
-  @include span(4);
-  background-color: #0d3349;
-  height: 100px;
-  margin-bottom: gutter();
-}
-
-.square6 {
-  @include span(6);
-  background-color: #0d3349;
-  height: 100px;
-  margin-bottom: gutter();
-}
-
-
-.footer {
- // @include show-grid(24);
-}
-
 img {
   width: 100%;
 }
 
-// add float none to bootstrap center-block class
 
-.center-block {
-  float: none;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Open Sans Bold', sans-serif;
   margin: 0.1em 0;
@@ -146,26 +93,24 @@ input, textarea {
   margin-top: 10px;
   margin-right: 5px;
   padding: 9px 15px;
-  -webkit-border-radius: 2px;
-  -moz-border-radius: 2px;
   border-radius: 2px;
   -webkit-transition: background-color 500ms ease;
   transition: background-color 500ms ease;
-  font-size: $sitebutton_button-font-size;
+  font-size: 14px;
   text-align: center;
   letter-spacing: 2px;
   text-decoration: none;
   text-transform: uppercase;
-  border: $sitebutton_button-border;
-  background-color: $sitebutton_button-background-color;
-  color: $sitebutton_button-color;
-
-  &:hover {
-    color: $sitebutton_button-color--hover;
-    border: $sitebutton_button-border--hover;
-    background-color: $sitebutton_button-background-color--hover;
-  }
+  border: 1px solid #cdd0df;
+  background-color: transparent;
+  color: #4d4d4d;
 }
+.sitebutton:hover {
+  color: #fff;
+  border: 1px solid #5ac5c5;
+  background-color: #5ac5c5;
+}
+
 .preview_overlay_content img {
   width: 20px;
 }
@@ -217,6 +162,13 @@ input[type="checkbox"] + label, input[type="radio"] +  label {
   margin-left:10px;
 }
 
+
+// hide author info on articles
+.content_page_main .ArticleBody .author {
+  display: none;
+}
+
+
 @media (min-width: $breakpoint-sm) {
 
   body {
@@ -267,7 +219,3 @@ input[type="checkbox"] + label, input[type="radio"] +  label {
   }
 
 }
-
-// hide author info on articles due to homepage community article list
-.content_page_main .ArticleBody .author {
-  display: none;}

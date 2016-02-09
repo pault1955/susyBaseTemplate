@@ -1,376 +1,57 @@
 <!doctype html>
 <html class="no-js">
 <head>
-  <meta charset="utf-8">
-  <title>Affinity</title>
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width">
-  <link rel="stylesheet" href="css/jquery.bxslider.min.css">
-  <link rel="stylesheet" href="css/slicknav.min.css">
-  <link rel="stylesheet" href="css/style.css">
+    <meta charset="utf-8">
+    <title>Affinity</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="css/jquery.bxslider.min.css">
+    <link rel="stylesheet" href="css/slicknav.min.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
 
-
-<!--include "slice_affinity_header.html"-->
 <header>
-  <section class="slice_affinity_header_statusbar_search">
-    <div id="mobile_nav"></div>
-
-
-    <div class="container">
-      <div>
-        <div class="siteLogoName">
-            <span class="siteLogo">
-                 <a id="_ctl0__ctl0_cphBody__ctl0_hlSiteLogo" href="/">
-                   <img src="images/affinity-logo.png" alt=""/>
-                 </a>
-            </span>
-            <span class="siteName">
-                 <a href="/" id="_ctl0__ctl0_cphBody__ctl1_hlName">AFFINITY</a>
-            </span>
-        </div>
-
-        <div class="statusbarSearch">
-          <div class="searchBox">
-            <div class="search_div"
-                 onkeydown="if(event.keyCode==13){document.getElementById('_ctl0__ctl0_cphBody__ctl0_searchSiteGo').click();return false}else{return true}">
-              <input type="text" id="_ctl0__ctl0_cphBody__ctl0_searchSite" name="searchSite" size="22"
-                     value="Search" onblur="if(this.value==''){this.value='Search';}"
-                     onfocus="if(this.value=='Search'){this.value='';}" class="text">
-            </div>
-            <input type="button" id="_ctl0__ctl0_cphBody__ctl0_searchSiteGo" value="Go" class="button"
-                   onclick="doSiteSearch(this.id,'Search',false,null,null);">
-          </div>
-
-          <div>
-            <div class="statusbar">
-              <div class="greeting_div">Good morning, Insight</div>
-              <a href="/User/Logout.aspx" title="Sign out of the web site" class="logout_link">Logout</a><a
-                    href="javascript:openLogin();" title="Access site administration pages"
-                    class="weboffice_link">Web Office</a>
-
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <nav class="navbar">
-      <div class="container">
-        <ul class="root_menu">
-          <li class="menu_item menu_item_level_1 has_sub_menu"><a class="menu_link"
-                                                                  href="/Groups/236670/The_City_Church.aspx">Home</a>
-            <ul class="sub_menu sub_menu_level_1">
-              <li class="menu_item menu_item_level_2"><a class="menu_link"
-                                                         href="/Groups/236670/The_City_Church.aspx">Homepage</a>
-              </li>
-              <li class="menu_item menu_item_level_"><a class="menu_link"
-                                                        href="/Address/AddressBook.aspx">Address
-                Book</a></li>
-            </ul>
-          </li>
-          <li class="menu_item menu_item_level_1 has_sub_menu"><a class="menu_link"
-                                                                  href="/Groups/236672/About_Us.aspx">About
-            Us</a>
-            <ul class="sub_menu sub_menu_level_1">
-              <li class="menu_item menu_item_level_2"><a class="menu_link"
-                                                         href="/Groups/236672/About_Us.aspx">About
-                Us</a></li>
-              <li class="menu_item menu_item_level_2"><a class="menu_link"
-                                                         href="/Groups/236677/What_We_Believe.aspx">What
-                We Believe</a></li>
-              <li class="menu_item menu_item_level_2"><a class="menu_link"
-                                                         href="/Groups/236678/Mission_and_Vision.aspx">Mission
-                and
-                Vision</a></li>
-              <li class="menu_item menu_item_level_2"><a class="menu_link"
-                                                         href="/Groups/236679/Staff_and_Leadership.aspx">Staff
-                and
-                Leadership</a></li>
-              <li class="menu_item menu_item_level_2"><a class="menu_link"
-                                                         href="/Groups/236692/What_Is_Christianity.aspx">What
-                Is
-                Christianity?</a></li>
-              <li class="menu_item menu_item_level_2"><a class="menu_link"
-                                                         href="/Groups/236676/Contact_Us.aspx">Contact
-                Us</a></li>
-            </ul>
-          </li>
-          <li class="menu_item menu_item_level_1 has_sub_menu"><a class="menu_link"
-                                                                  href="/Groups/236673/New_to_Church.aspx">New
-            to
-            Church?</a>
-            <ul class="sub_menu sub_menu_level_1">
-              <li class="menu_item menu_item_level_2"><a class="menu_link"
-                                                         href="/Groups/236673/New_to_Church.aspx">New
-                to Church?</a></li>
-            </ul>
-          </li>
-          <li class="menu_item menu_item_level_1 has_sub_menu"><a class="menu_link"
-                                                                  href="/Groups/236674/Church_Life.aspx">Church
-            Life</a>
-            <ul class="sub_menu sub_menu_level_1">
-              <li class="menu_item menu_item_level_2"><a class="menu_link"
-                                                         href="/Groups/236674/Church_Life.aspx">Church
-                Life</a></li>
-              <li class="menu_item menu_item_level_2"><a class="menu_link"
-                                                         href="/Groups/236693/Latest_News.aspx">Latest
-                News</a></li>
-              <li class="menu_item menu_item_level_2"><a class="menu_link"
-                                                         href="/Groups/236698/Get_Involved.aspx">Get
-                Involved!</a></li>
-              <li class="menu_item menu_item_level_2"><a class="menu_link"
-                                                         href="/Groups/236680/Sunday_Services.aspx">Sunday
-                Services</a></li>
-              <li class="menu_item menu_item_level_2"><a class="menu_link"
-                                                         href="/Groups/236681/Courses_and_Events.aspx">Courses
-                and
-                Events</a></li>
-              <li class="menu_item menu_item_level_2 has_sub_menu"><a class="menu_link"
-                                                                      href="/Groups/236682/Small_Groups.aspx">Small
-                Groups</a>
-                <ul class="sub_menu sub_menu_level_2">
-                  <li class="menu_item menu_item_level_3"><a class="menu_link"
-                                                             href="/Groups/236700/Example_Small_Group.aspx">Example
-                    Small Group</a></li>
-                </ul>
-              </li>
-              <li class="menu_item menu_item_level_2"><a class="menu_link"
-                                                         href="/Groups/236683/Childrens_Ministry.aspx">Children&#39;s
-                Ministry</a></li>
-              <li class="menu_item menu_item_level_2"><a class="menu_link"
-                                                         href="/Groups/236684/Youth.aspx">Youth</a>
-              </li>
-              <li class="menu_item menu_item_level_2"><a class="menu_link"
-                                                         href="/Groups/236685/Students.aspx">Students</a>
-              </li>
-              <li class="menu_item menu_item_level_2"><a class="menu_link"
-                                                         href="/Groups/236686/Ministries.aspx">Ministries</a>
-              </li>
-            </ul>
-          </li>
-          <li class="menu_item menu_item_level_1 has_sub_menu"><a class="menu_link"
-                                                                  href="/Groups/236675/Resources.aspx">Resources</a>
-            <ul class="sub_menu sub_menu_level_1">
-              <li class="menu_item menu_item_level_2"><a class="menu_link"
-                                                         href="/Groups/236675/Resources.aspx">Resources</a>
-              </li>
-              <li class="menu_item menu_item_level_2"><a class="menu_link"
-                                                         href="/Groups/236696/Address_Book.aspx">Address
-                Book</a></li>
-              <li class="menu_item menu_item_level_2"><a class="menu_link"
-                                                         href="/Groups/236688/Church_Calendar.aspx">Church
-                Calendar </a></li>
-              <li class="menu_item menu_item_level_2"><a class="menu_link"
-                                                         href="/Groups/236697/Forums.aspx">Forums</a></li>
-              <li class="menu_item menu_item_level_2"><a class="menu_link"
-                                                         href="/Groups/236689/Online_Bible.aspx">Online
-                Bible </a></li>
-              <li class="menu_item menu_item_level_2"><a class="menu_link"
-                                                         href="/Groups/236687/Sermons_and_Media.aspx">Sermons
-                and
-                Media</a></li>
-            </ul>
-          </li>
-          <li class="menu_item menu_item_level_1 has_sub_menu"><a class="menu_link"
-                                                                  href="/MyArea/Introduction.aspx">My
-            Area</a>
-            <ul class="sub_menu sub_menu_level_1">
-              <li class="menu_item menu_item_level_2 has_sub_menu"><a class="menu_link"
-                                                                      href="/MyArea/MyDetails.aspx">My
-                Details</a>
-                <ul class="sub_menu sub_menu_level_2">
-                  <li class="menu_item menu_item_level_3"><a class="menu_link"
-                                                             href="/MyArea/ProfilePersonal.aspx">My
-                    Profile</a>
-                  </li>
-                  <li class="menu_item menu_item_level_3"><a class="menu_link"
-                                                             href="/MyArea/ProfilePassword.aspx">Change
-                    Password</a></li>
-                </ul>
-              </li>
-              <li class="menu_item menu_item_level_2 has_sub_menu"><a class="menu_link"
-                                                                      href="/MyArea/MyInvolvement.aspx">My
-                Involvement</a>
-                <ul class="sub_menu sub_menu_level_2">
-                  <li class="menu_item menu_item_level_3"><a class="menu_link"
-                                                             href="/MyArea/ProfileGroups.aspx">My
-                    Membership</a></li>
-                  <li class="menu_item menu_item_level_3"><a class="menu_link"
-                                                             href="/MyArea/ProfileConnections.aspx">My
-                    Connections</a></li>
-                  <li class="menu_item menu_item_level_3"><a class="menu_link"
-                                                             href="/MyArea/MyMessages.aspx">My
-                    Messages</a></li>
-                  <li class="menu_item menu_item_level_3"><a class="menu_link"
-                                                             href="/MyArea/ProfileSubscriptions.aspx">My
-                    Mailing
-                    Preferences</a></li>
-                  <li class="menu_item menu_item_level_3"><a class="menu_link"
-                                                             href="/MyArea/MyReminders.aspx">My
-                    Reminders</a></li>
-                  <li class="menu_item menu_item_level_3"><a class="menu_link"
-                                                             href="/MyArea/MyDocuments.aspx">My
-                    Documents</a></li>
-                </ul>
-              </li>
-            </ul>
-          </li>
-        </ul>
-      </div>
-    </nav>
-  </section>
 
 </header>
-<section class="slice_affinity_slideshow">
-  <div class="container bannerSlides"> <div class="slideSpan">
-      <ul class="gallery_ul" id="_ctl0__ctl0_cphBody__ctl2_gallery_ul">
-        <li class="gallery_li">
-          <a href="#" target="_self"><img alt=
-                                                  "WELCOME*JOIN US THIS SUNDAY"
-                                          src="images/affinity-01-slide.jpg" title=
-                                                  "WELCOME*JOIN US THIS SUNDAY"></a>
-        </li>
-
-        <li class="gallery_li">
-          <a href="#" target="_self"><img alt=
-                                                  "WELCOME*JOIN US THIS SUNDAY"
-                                          src="images/affinity-02-slide.jpg" title=
-                                                  "WELCOME*JOIN US THIS SUNDAY"></a>
-        </li>
-
-        <li class="gallery_li">
-          <a href="#" target="_self"><img alt=
-                                                  "WELCOME*JOIN US THIS SUNDAY"
-                                          src="images/affinity-03-slide.jpg" title=
-                                                  "WELCOME*JOIN US THIS SUNDAY"></a>
-        </li>
-
-      </ul></div>
-  </div>
-</section>
-
-
 
 <section>
-    <div class="container">
 
-        <div class="square">column</div>
-        <div class="square">column</div>
-        <div class="square">column</div>
-        <div class="square">column</div>
-        <div class="square">column</div>
-        <div class="square">column</div>
-        <div class="square">column</div>
-        <div class="square">column</div>
-        <div class="square">column</div>
-        <div class="square">column</div>
-        <div class="square">column</div>
-        <div class="square">column</div>
-        <div class="square3">column</div>
-        <div class="square3">column</div>
-        <div class="square3">column</div>
-        <div class="square3">column</div>
-        <div class="square4">column</div>
-        <div class="square4">column</div>
-        <div class="square4">column</div>
-        <div class="square6">column</div>
-        <div class="square6">column</div>
-        <div class="square6">column</div>
-        <div class="square6">column</div>
-    </div>
 </section>
+
+
 <footer>
-
-  <section class="slice_affinity_footer">
-    <div class="container">
-      <div class="footer center_block">
-        <div class="footer_column col-xs-12 col-sm-6 col-md-4  center_block">
-          <div class="footer_title">
-            Connect with us:
-          </div>
-          <a class="footer_icon_block" href="http://www.facebook.com" target="_blank"><img
-                  alt="facebook" src="images/affinity-icon-facebook.png"> </a> <a
-                class="footer_icon_block twitter" href="http://www.twitter.com" target="_blank"> <img
-                alt="twitter" src="images/affinity-icon-twitter.png"> </a> <a
-                class="footer_icon_block youtube" href="http://www.youtube.com" target="_blank"> <img
-                alt="youtube" src="images/affinity-icon-youtube.png"> </a></div>
-
-        <div class="footer_column col-xs-12 col-sm-6  col-md-4  center_block">
-          <div class="footer_title">
-            Members
-          </div>
-
-          <div>
-            <div class="statusbar">
-              <div class="greeting_div">Good morning, Insight</div>
-              <a href="/User/Logout.aspx" title="Sign out of the web site" class="logout_link">Logout</a><a
-                    href="javascript:openLogin();" title="Access site administration pages"
-                    class="weboffice_link">Web Office</a>
-
+    <section class="slice_affinity_footerbar">
+        <div class="container">
+            <div class="footerbar">
+                <div>
+                    <div>
+                        <a class="footer" onmouseover="window.status='Visit ChurchInsight';return true;"
+                           onmouseout="window.status='';" href="http://www.churchinsight.com/" target="_blank">a
+                            <strong>Church</strong>Insight
+                            site</a>
+                        <a id="footer_mobile" href="/Mobile/default.aspx?home=yes" title="High Accessibility Version"
+                           onmouseover="window.status='High Accessibility Version';return true;"
+                           onmouseout="window.status = '';">Low Graphics</a>
+                        <a id="footer_copyright" href="/User/Copyright.aspx" title="Copyright Statement"
+                           onmouseover="window.status='Copyright Statement';return true;"
+                           onmouseout="window.status='';">Copyright</a>
+                        <a id="footer_tc" href="/User/TermsAndConditions.aspx" title="Terms and Conditions"
+                           onmouseover="window.status='Terms and Conditions';return true;"
+                           onmouseout="window.status='';">T&amp;Cs</a>
+                        <a id="footer_privacy" href="/User/PrivacyPolicy.aspx" title="Privacy Policy"
+                           onmouseover="window.status='Privacy Policy';return true;"
+                           onmouseout="window.status='';">Privacy</a>
+                        <a id="footer_help" href="/User/Help.aspx" title="Help with using this site"
+                           onmouseover="window.status='Help with using this site';return true;"
+                           onmouseout="window.status='';">Help</a>
+                        <span id="footer_charity">Registered Charity 123456789</span>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-
-        <div class="footer_column col-xs-12  col-md-4  center_block">
-          <div class="footer_title">
-            What are you looking for?
-          </div>
-
-          <div class="search_box">
-            <label class="search_title" for="_ctl0__ctl0_cphBody__ctl7_searchSite">Site Search</label>
-
-
-            <div class="search_div"
-                 onkeydown="if(event.keyCode==13){document.getElementById('_ctl0__ctl0_cphBody__ctl7_searchSiteGo').click();return false}else{return true}">
-              <input type="text" id="_ctl0__ctl0_cphBody__ctl7_searchSite" name="searchSite" size="22"
-                     value="Search the Site" onblur="if(this.value==''){this.value='Search the Site';}"
-                     onfocus="if(this.value=='Search the Site'){this.value='';}" class="text">
-            </div>
-
-            <input type="button" id="_ctl0__ctl0_cphBody__ctl7_searchSiteGo" value="Go" class="button"
-                   onclick="doSiteSearch(this.id,'Search the Site',false,null,null);">
-
-          </div>
-        </div>
-      </div>
-    </div>
-
-  </section>
-
-
-
-  
-  <!--include "slice_affinity_footer_3.html"-->
-  <section class="slice_affinity_footerbar">
-    <div class="container">
-      <div class="footerbar">
-        <div>
-          <div>
-            <a class="footer" onmouseover="window.status='Visit ChurchInsight';return true;"
-               onmouseout="window.status='';" href="http://www.churchinsight.com/" target="_blank">a <strong>Church</strong>Insight
-              site</a>
-            <a id="footer_mobile" href="/Mobile/default.aspx?home=yes" title="High Accessibility Version"
-               onmouseover="window.status='High Accessibility Version';return true;"
-               onmouseout="window.status = '';">Low Graphics</a>
-            <a id="footer_copyright" href="/User/Copyright.aspx" title="Copyright Statement"
-               onmouseover="window.status='Copyright Statement';return true;" onmouseout="window.status='';">Copyright</a>
-            <a id="footer_tc" href="/User/TermsAndConditions.aspx" title="Terms and Conditions"
-               onmouseover="window.status='Terms and Conditions';return true;" onmouseout="window.status='';">T&amp;Cs</a>
-            <a id="footer_privacy" href="/User/PrivacyPolicy.aspx" title="Privacy Policy"
-               onmouseover="window.status='Privacy Policy';return true;"
-               onmouseout="window.status='';">Privacy</a>
-            <a id="footer_help" href="/User/Help.aspx" title="Help with using this site"
-               onmouseover="window.status='Help with using this site';return true;"
-               onmouseout="window.status='';">Help</a>
-            <span id="footer_charity">Registered Charity 123456789</span>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+    </section>
 </footer>
 </body>
 </html>
